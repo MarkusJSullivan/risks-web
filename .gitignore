@@ -1,4 +1,12 @@
 dist/
 __pycache__/
 .venv/
+.pytest_cache/
+# local-only (not part of the website)
+risks/
+scripts/
+tests/
+docs/
+bridge/
+site/
 CLAUDE.md
