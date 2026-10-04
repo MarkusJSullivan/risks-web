@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Player aid: The Data Protection Risk Game</title><style>
+@page { size: A4 portrait; margin: 10mm; }
+body { font-family: Georgia, serif; max-width: 190mm; margin: 0 auto; padding: 4mm; color: #1d2433; font-size: 11pt; line-height: 1.35; }
+h1 { font-size: 20pt; margin: 0 0 1mm; }
+h2 { font-size: 13pt; margin: 4mm 0 1.5mm; border-bottom: 1px solid #ccc; padding-bottom: 1mm; }
+.sub { margin: 0 0 3mm; color: #555; font-style: italic; }
+.flow { width: 100%; margin: 2mm 0; }
+.grid { display: grid; grid-template-columns: 1fr 62mm; gap: 6mm; align-items: start; }
+.row { display: flex; gap: 3mm; align-items: flex-start; margin: 1.5mm 0; }
+.row img { flex: none; }
+.row p { margin: 0; }
+.optional { background: #e8f0fe; border-left: 4px solid #3b6fd4; padding: 1.5mm 3mm; margin: 2mm 0; }
+.matrix { width: 100%; }
+</style></head><body>
+<h1>Player aid</h1>
+<p class="sub">The Data Protection Risk Game, paper version. One for each team.</p>
+
+<img class="flow" src="img/flow.svg" alt="A project: start, four turns, end, next project">
+
+<div class="grid">
+<div>
+<h2>Each turn: one action</h2>
+<div class="row"><img src="img/card-grey.svg" width="34" alt="">
+<p><strong>Play a card.</strong> The processing owner plays a measure card, pays its coins and moves the figures on the matrix.</p></div>
+<div class="row"><img src="img/coin.svg" width="34" alt="">
+<p><strong>Swap cards.</strong> Put up to [3] cards on the discard pile and draw as many. It costs [1] coin. This is your action.</p></div>
+<p>Then the facilitator draws an event.</p>
+
+<h2>Card colours</h2>
+<div class="row"><img src="img/card-grey.svg" width="34" alt="Grey card">
+<p><strong>Grey, project.</strong> Played once, then onto the discard pile. Draw a new card.</p></div>
+<div class="row"><img src="img/card-blue.svg" width="34" alt="Blue card">
+<p><strong>Blue, shareable.</strong> Pile it face down in front of you. It comes back to your hand at the end of the project. No new card.</p></div>
+<div class="row"><img src="img/card-yellow.svg" width="34" alt="Yellow card">
+<p><strong>Yellow, central.</strong> Stays face up on the table and keeps working in every later project. Draw a new card.</p></div>
+
+<h2>End of a project</h2>
+<div class="row"><img src="img/d20.svg" width="46" alt="d20">
+<p><strong>Roll your d20 once.</strong> The facilitator checks every figure on your matrices. Roll too low for the probability row of a figure and you pay for its impact.</p></div>
+<div class="row"><img src="img/coin.svg" width="34" alt="">
+<p><strong>Coins.</strong> You get coins at the start of every project. A team that cannot pay is out of business.</p></div>
+<div class="optional"><strong>Optional rule.</strong> Playing a card? Explain, as creatively as you can, why this measure works perfectly here.</div>
+<div class="optional"><strong>Optional rule.</strong> Pay [1] coin and call in a DPO to argue why the project must be stopped. The facilitator decides.</div>
+</div>
+<div>
+<h2>The matrix</h2>
+<img class="matrix" src="mockups/risk-matrix.png" alt="The risk matrix with zones, goals and key rules">
+</div>
+</div>
+<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Based on <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Das Standard-Datenschutzmodell (SDM), Version 3.1, beschlossen von der 107. DSK am 14. Mai 2024</a>.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Code: <a href="https://opensource.org/license/mit">MIT</a>. Card data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source</a> (dpia-tabletop @ 0a7de31).</p></footer>
+</body></html>

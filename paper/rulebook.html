@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>The Data Protection Risk Game: paper version</title><style>
+body { font-family: Georgia, serif; max-width: 52rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1d2433; }
+h1, h2, h3 { line-height: 1.2; }
+h2 { border-bottom: 1px solid #ccc; padding-bottom: .2rem; margin-top: 2rem; }
+table { border-collapse: collapse; margin: 1rem 0; }
+th, td { border: 1px solid #bbb; padding: .35rem .6rem; text-align: left; vertical-align: top; }
+th { background: #f1ede0; }
+code { background: #f1ede0; padding: 0 .25rem; border-radius: 3px; }
+hr { border: 0; border-top: 1px solid #ccc; margin: 2rem 0; }
+img { max-width: 100%; }
+.optional { background: #e8f0fe; border-left: 4px solid #3b6fd4; padding: .4rem .8rem; margin: .6rem 0; }
+.note { background: #fff6dc; border-left: 4px solid #c9a227; padding: .4rem .8rem; }
+</style></head><body>
+<h1>The Data Protection Risk Game: paper version</h1>
+<p><em>How long can you stay in business, and which risks can you avoid?</em></p>
+<p class="note">Playtest version. Numbers in [square brackets] are recommendations to try out and to change. Boxes with a blue stripe are <strong>optional rules</strong>. The decisions, the open questions and the numbers to check are in the <a href="README.html">README</a>.</p>
+
+<hr>
+<h2>1. Introduction and goal</h2>
+<p>Monday morning, the coffee is hot, and you are ready to take on the world.</p>
+<p>Every project arrives with a few ways to go wrong, but you got your measures ready, a purse of coins and a matrix that shows exactly how bad it looks. Your job is to push every risk out of the red, or even better into the green, before the launch date, because someone upstairs has already told the customers it is happening.</p>
+<p>That someone is <strong>management</strong>. Management reads your risk assessment, nods slowly, and then does what it believes. The higher the risk you leave behind, the higher the chance that something goes wrong.</p>
+<p><strong>The goal.</strong> How long can you keep your business out of trouble, and which risks can you avoid? Bring every risk of a project below <strong>High</strong>, out of the red, spend your coins wisely, and make it through as many projects as you can. When the coins are gone, so is the business.</p>
+<p><strong>Who plays.</strong> Two or more teams play at the same time, each running their own business with their own matrices, cards and coins. One more person is the facilitator, who runs the game, plays management and does not run a business. A game is usually about [6] projects, about [45 minutes]. At the end, the teams still in business are ranked by coins left.</p>
+<p><strong>How hard is it?</strong> The facilitator decides how fat the purse is. They can add or remove some coins to balance things out.</p>
+
+<hr>
+<h2>2. Components</h2>
+<p>What is in the box, and what each part is for. Where it all goes comes in the setup.</p>
+<ul>
+<li><strong>Measure cards.</strong> The cards you play to fight risks. They come in three colours.</li>
+<li><strong>Risk cards.</strong> The risks that land on a team's desk.</li>
+<li><strong>Event cards.</strong> Things that happen along the way.</li>
+</ul>
+<p>All three kinds are in one print file, <a href="cards.pdf">cards.pdf</a> (DIN A4, 3 &times; 3 cards a page with crop marks). Every second page is the back of the page before. A new sheet starts whenever the back changes (measure, risk, event), and every page of backs is full. Print it double-sided, flipped on the long edge, and cut along the marks. The strategy cards are left out. There is a second file with text only and no pictures, <a href="cards-text.pdf">cards-text.pdf</a>, which prints faster and uses less ink.</p>
+<ul>
+<li><strong>Risk matrices.</strong> A stack of boards where a risk is fought (<a href="mockups/risk-matrix-a4.pdf">PDF, DIN A4</a>).</li>
+<li><strong>Figures.</strong> One in the colour of each goal. They show where a risk stands on a matrix.</li>
+<li><strong>Coins.</strong> What it costs to play a measure, and what keeps a business alive.</li>
+<li><strong>Dice.</strong> A twenty-sided die (d20) for each team and one for the facilitator.</li>
+<li><strong>Player aid.</strong> A one-page summary of the rules with pictures, one for each team (<a href="player-aid.html">page</a>, <a href="player-aid.pdf">PDF, DIN A4</a>).</li>
+<li><strong>Facilitator sheet.</strong> The table of what goes wrong (<a href="facilitator-sheet.html">page</a>, <a href="facilitator-sheet.pdf">PDF, DIN A4</a>).</li>
+</ul>
+<p><img src="mockups/risk-matrix.png" alt="The risk matrix with zone colours, the colours of the goals and the key rules" width="420"></p>
+
+<hr>
+<h2>3. Setup</h2>
+<p><strong>The facilitator, before the game:</strong></p>
+<ol>
+<li>Shuffles the measure cards and puts them in the middle of the table as the <strong>draw pile</strong>, leaving room next to it for a <strong>discard pile</strong>.</li>
+<li>Shuffles the <strong>risk cards</strong> into one stack and the <strong>event cards</strong> into another, and keeps both next to the draw pile.</li>
+<li>Keeps the <strong>facilitator sheet</strong> and a <strong>d20</strong> at hand.</li>
+<li>Lays a stack of <strong>risk matrices</strong> and the <strong>figures</strong> ready, where every team can reach them.</li>
+</ol>
+<p><strong>The facilitator, for each team:</strong></p>
+<ol start="5">
+<li>Gives the team a <strong>player aid</strong> and a <strong>d20</strong>.</li>
+<li>Gives the team its starting <strong>coins</strong>, [12] of them. The facilitator can add or remove some.</li>
+<li>Deals the team [7] cards from the draw pile.</li>
+</ol>
+<p><strong>The teams:</strong></p>
+<ol start="8">
+<li>Each team picks a <strong>processing owner</strong>. The processing owner holds the cards and the coins and coordinates with the rest of the team.</li>
+</ol>
+
+<hr>
+<h2>4. How the game is played</h2>
+<h3>The structure</h3>
+<p>The game is played in <strong>projects</strong>, and a project has one or more risks. The teams take turns to bring the risks down before the time runs out after four turns. At the end of the project, each team rolls the dice and the facilitator checks whether something went wrong.</p>
+
+<h3>1. Start of a project</h3>
+<ol>
+<li>The facilitator pays each team [4] <strong>coins</strong>.</li>
+<li>The facilitator turns over one or more risk cards of the project and makes up a bit of a story. Every team faces the same risks.</li>
+<li>Each team takes a risk matrix for every risk and puts a figure on each starting space shown on the risk card.</li>
+</ol>
+
+<h3>2. A turn</h3>
+<p>In a turn every team has one <strong>action</strong>. A card that says "lose one action" costs the team a turn, and a card that says "gain one action" gives it an extra turn.</p>
+<ol>
+<li>Every team does one of the following actions, all at the same time:
+<ul>
+<li><strong>Play a card:</strong> the processing owner plays a measure card from the hand, pays its coins and moves the figures on the matrix. This ends the team's turn. The played card goes where its colour says:
+<ul>
+<li><strong>Grey (project):</strong> onto the discard pile at once, and the team draws a new one.</li>
+<li><strong>Blue (shareable):</strong> the team piles it face down in front of itself. At the end of the project the team picks up the pile into its hand, and the cards can be played again in the next project.</li>
+<li><strong>Yellow (central):</strong> face up on the table, and the team draws a new one. It stays on the table and keeps working in every later project.</li>
+</ul></li>
+<li><strong>Swap cards:</strong> the processing owner puts up to [3] cards from the hand on the discard pile and draws the same number from the draw pile. This costs [1] coin and ends the team's turn.</li>
+</ul></li>
+<li>The facilitator draws an event card and reads it out. It affects all teams and does what the card says.</li>
+</ol>
+<p>When the draw pile is empty, the facilitator shuffles the discard pile to make a new one.</p>
+<div class="optional"><strong>Optional rule: explain it creatively.</strong> When a team plays a card, the processing owner explains, as creatively as they can, why this measure works perfectly here. The facilitator judges the explanation. What a good explanation earns is still open.</div>
+
+<h3>3. End of a project</h3>
+<p>The project ends after the last turn (events can change the number of turns).</p>
+<ol>
+<li><div class="optional"><strong>Optional rule: call in the DPO.</strong> A team may pay [1] coin and appoint a data protection officer (DPO). The DPO makes an argument to the facilitator why the project must be stopped. The facilitator rolls the d20 in secret and decides whether management buys it. This is decided in each case. If it does, the project moves to the next round: the team keeps its matrices and figures and gets another chance for mitigation, with the full number of turns, and has no roll and no check this time. The project is extra to the new risks of the next round, and the new risks are revealed for all teams as usual. The next round starts as usual, including the coins. The coin for the DPO is not refunded. If management does not buy it, the team goes on with the roll.</div></li>
+<li><strong>Roll.</strong> Each team rolls the d20 once.</li>
+<li><strong>Check.</strong> The facilitator checks the figures on the team's matrices. A figure fails if the roll is too low for its probability row (see the facilitator sheet).</li>
+<li><strong>Pay.</strong> For every failed figure the facilitator names the cost for its impact and makes up what happened. The processing owner pays. A team that cannot pay is out of business.<div class="optional"><strong>Optional rule.</strong> The team may instead make a convincing argument to management why it was not their fault, and management, played by the facilitator, may cover some or all of the fee.</div></li>
+<li><strong>Next project.</strong> Each team picks up its pile of blue cards into its hand. If it was not the last project, the next one starts with part 1.</li>
+</ol>
+
+<hr>
+<h2>5. End of the game and score</h2>
+<ul>
+<li>The game ends after the last project, or for a team when its coins run out.</li>
+<li>Teams still in business at the end are ranked by coins left. A team whose coins ran out ranks below them, by the number of projects it lasted.</li>
+</ul>
+
+<hr>
+<h2>6. Player aid and facilitator sheet</h2>
+<p>Both are one page each, with pictures, and are made to be printed on DIN A4.</p>
+<ul>
+<li><strong>Player aid</strong>, one for each team: <a href="player-aid.html">page</a>, <a href="player-aid.pdf">PDF</a>. It shows the flow of a project, the turn, the three card colours, the matrix and the end-of-project roll.</li>
+<li><strong>Facilitator sheet</strong>, for the facilitator: <a href="facilitator-sheet.html">page</a>, <a href="facilitator-sheet.pdf">PDF</a>. It shows the facilitator's jobs, the roll a team needs for each probability, the cost and the story for each impact, and the optional DPO.</li>
+</ul>
+
+<hr>
+<h2>Appendix: an example project</h2>
+<p>Team Otter faces one risk. The black figure (Confidentiality) starts at probability 3, impact 3, in the red.</p>
+<ol>
+<li><strong>Start.</strong> The facilitator pays Team Otter [4] coins, turns over the risk card and tells a short story about it. The team puts the black figure on its starting space.</li>
+<li><strong>Turn 1.</strong> Team Otter plays a grey measure card that lowers probability by one. The processing owner pays its coins, moves the black figure from probability 3 to 2 and puts the card on the discard pile. The team draws a new card. The facilitator draws an event card and reads it out.</li>
+<li><strong>Turn 2.</strong> The team plays a blue measure card that lowers impact by one. The black figure moves to impact 2, out of the red. The card goes face down in a pile in front of the team, and the team does not draw.</li>
+<li><strong>Turns 3 and 4.</strong> The team uses them the same way: it swaps cards in turn 3 and plays one more measure in turn 4.</li>
+<li><strong>End.</strong> Team Otter rolls its d20 and gets a 6. The black figure stands at probability 2, which needs an 8 or above, so it fails. Its impact is 2, so the cost is 4 coins. The facilitator tells the story, for example a customer complaint that goes to the authority, with lawyers and forms. The processing owner pays 4 coins. Had the roll been 9, nothing would have happened.</li>
+<li><strong>Next project.</strong> Team Otter picks up its blue card into its hand, and the next project starts with the facilitator paying [4] coins.</li>
+</ol>
+<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Based on <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Das Standard-Datenschutzmodell (SDM), Version 3.1, beschlossen von der 107. DSK am 14. Mai 2024</a>.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Code: <a href="https://opensource.org/license/mit">MIT</a>. Card data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source</a> (dpia-tabletop @ 0a7de31).</p></footer>
+</body></html>
