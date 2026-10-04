@@ -34,7 +34,7 @@ def _route(path: str, raw: str) -> tuple[int, dict]:
             seed = body.get("seed")
             if seed is not None and (isinstance(seed, bool) or not isinstance(seed, int)):
                 return 400, {"error": "seed must be an integer"}
-            state = _game.new_game(seed, body.get("handSize"), body.get("mode"))
+            state = _game.new_game(seed, body.get("handSize"), body.get("mode"), body.get("difficulty"))
             token = secrets.token_urlsafe(24)
             _sessions[token] = state
             return 200, {"session": token, "view": _game.view(state)}
