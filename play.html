@@ -630,8 +630,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="12" y="10" width="40" height="48" rx="4"/><rect x="23" y="5" width="18" height="10" rx="3"/><path d="M21 28h22M21 38h22M21 48h12"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M16 16l32 32M48 16L16 48"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Field review</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Go through every data category with the project team and drop what nobody can justify.</div>
 <div class="flavour">Every field arrives with the same defence: &#34;it might be useful someday.&#34;</div>    <div class="foot"><span>SDM D1.7 · NIST SI-12(1), PT-3</span><span>MIN-FIELDS-1 · v0.8</span></div>
@@ -647,10 +647,10 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="8" width="22" height="22"/><rect x="34" y="8" width="22" height="22" class="f"/><rect x="8" y="34" width="22" height="22" class="f"/><rect x="34" y="34" width="22" height="22"/></svg>    </div>
     <div class="typeline"><span class="cls">Generalise values</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Replace exact birth dates with age bands. You still know who is in the group, but not who was born when.</div>
 <div class="flavour">Age bands keep the crowd and lose the candles. (Marketing will ask where the candles went.)</div>    <div class="foot"><span>SDM D1.7 · NIST SI-19</span><span>MIN-FIELDS-2 · v0.8</span></div>
@@ -666,9 +666,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M10 16h44M24 16v-7h16v7M15 16l4 42h26l4-42"/><path d="M26 26v24M38 26v24"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M12 34l14 14 26-30"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Don&#39;t store it</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +2, impact +1"><b>+2</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −2, impact −1"><b>−2</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Check the answer once, for example &#34;over 18&#34;, and store only the result, not the birth date it came from.</div>
 <div class="flavour">It cannot leak what it never kept.</div>    <div class="foot"><span>SDM D3.4, D1.7 · NIST SI-19(1), SA-8</span><span>MIN-FIELDS-3 · v0.8</span></div>
@@ -684,7 +684,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M14 6h24l12 12v40H14z"/><path d="M38 6v12h12"/><path d="M22 30h20M22 38h20M22 46h12"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><circle cx="32" cy="32" r="24"/><path d="M32 16v17l11 7"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Collection rule per purpose</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Write down what may be collected for each purpose and for how long.</div>
 <div class="flavour">The rule is clear. Finding out who enforces it is the sequel.</div>    <div class="foot"><span>SDM D1.7 · NIST PT-3</span><span>MIN-WINDOW-1 · v0.8</span></div>
@@ -700,9 +700,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="24"/><path d="M25 21v22M39 21v22"/></svg>    </div>
     <div class="typeline"><span class="cls">Event-based collection</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Collect on a trigger instead of continuously, and pause automatically outside the purpose window.</div>
 <div class="flavour">Turns out nobody needed a reading every ten seconds. Not even the sensor.</div>    <div class="foot"><span>SDM D1.7</span><span>MIN-WINDOW-2 · v0.8</span></div>
@@ -718,7 +718,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="8" y="14" width="48" height="44" rx="5"/><path d="M8 27h48M21 7v13M43 7v13"/><rect x="18" y="35" width="9" height="9" class="f"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M14 6h24l12 12v40H14z"/><path d="M38 6v12h12"/><path d="M22 30h20M22 38h20M22 46h12"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Retention schedule</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Write down how long each kind of data is kept.</div>
 <div class="flavour">Step 1: Write the policy. Step 2: Admire the policy. Step 3: There is no step 3.</div>    <div class="foot"><span>SDM D1.7 · NIST SI-12</span><span>MIN-RETAIN-1 · v0.8</span></div>
@@ -734,10 +734,10 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M10 16h44M24 16v-7h16v7M15 16l4 42h26l4-42"/><path d="M26 26v24M38 26v24"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M46 42A22 22 0 1 1 26 10a17 17 0 0 0 20 32z"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Automatic deletion</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">A scheduled job deletes everything that is past its retention date.</div>
 <div class="flavour">It has also, once, deleted what it should not have. We do not talk about Q3.</div>    <div class="foot"><span>SDM D1.7 · NIST SI-12(3)</span><span>MIN-RETAIN-2 · v0.8</span></div>
@@ -753,10 +753,10 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M50 12H16l18 20-18 20h34"/></svg>    </div>
     <div class="typeline"><span class="cls">Keep aggregates only</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +3"><b>0</b><u></u><b>+3</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −3"><b>0</b><u></u><b>−3</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">After a set time, replace individual records with totals and statistics.</div>
 <div class="flavour">Perfect for the dashboard. Terrible for the one question nobody asked yet.</div>    <div class="foot"><span>SDM D1.7 · NIST SI-19(5)</span><span>MIN-RETAIN-3 · v0.8</span></div>
@@ -772,8 +772,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="5" y="13" width="54" height="38" rx="5"/><circle cx="21" cy="28" r="6"/><path d="M11 43a10 8 0 0 1 20 0M38 26h15M38 34h10"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><circle cx="32" cy="32" r="23"/><path d="M15 15l34 34"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Reports without personal columns</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Make reports and default views show no names or IDs unless someone needs them.</div>
 <div class="flavour">Funny how few people miss the name column.</div>    <div class="foot"><span>SDM D1.7 · NIST AC-3</span><span>MIN-VIEW-1 · v0.8</span></div>
@@ -789,8 +789,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 6h24l12 12v40H14z"/><path d="M38 6v12h12"/><rect x="21" y="27" width="22" height="6" class="f"/><rect x="21" y="38" width="14" height="6" class="f"/><rect x="21" y="49" width="19" height="6" class="f"/></svg>    </div>
     <div class="typeline"><span class="cls">Field masking</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Masked fields stay hidden and are revealed only for a recorded reason. Since the masking feature of the platform works for any field, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Every black bar starts a conversation about who may lift it.</div>    <div class="foot"><span>SDM D1.7 · NIST SI-19(4), AC-3</span><span>MIN-VIEW-2 · v0.8</span></div>
@@ -806,8 +806,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M3 32C12 16 22 10 32 10s20 6 29 22c-9 16-19 22-29 22S12 48 3 32z"/><circle cx="32" cy="32" r="9"/><path d="M12 56L52 8"/></svg>    </div>
     <div class="typeline"><span class="cls">Automate so nobody has to look</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +3, impact 0"><b>+3</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −3, impact 0"><b>−3</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Let the system handle the case end to end, so people only see the exceptions.</div>
 <div class="flavour">The exceptions are, of course, where the interesting data lives.</div>    <div class="foot"><span>SDM D1.7</span><span>MIN-VIEW-3 · v0.8</span></div>
@@ -823,8 +823,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M25 7h14M28 7v20L11 53a4 4 0 0 0 4 6h34a4 4 0 0 0 4-6L36 27V7"/><path d="M19 43h26"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M16 16l32 32M48 16L16 48"/></g></svg>    </div>
     <div class="typeline"><span class="cls">No live data in tests</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Never copy production personal data into test or training environments.</div>
 <div class="flavour">Famous last words: &#34;it is only a copy.&#34;</div>    <div class="foot"><span>SDM D1.7 · NIST PM-25, SI-12(2)</span><span>MIN-TEST-1 · v0.8</span></div>
@@ -840,8 +840,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M25 7h14M28 7v20L11 53a4 4 0 0 0 4 6h34a4 4 0 0 0 4-6L36 27V7"/><path d="M19 43h26"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M6 14h52v18c0 15-11 24-26 24S6 47 6 32z"/><path d="M15 29q6-5 12 0M37 29q6-5 12 0M24 41q8 7 16 0"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Synthetic or masked test data</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Generate test data that behaves like the real thing but belongs to no one. Since the generator works on any schema, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Mr. Test-Testmann has been in every database since 2009.</div>    <div class="foot"><span>SDM D1.7 · NIST PM-25, SI-19(4)</span><span>MIN-TEST-2 · v0.8</span></div>
@@ -857,8 +857,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="5" y="21" width="54" height="22" rx="11"/><circle cx="17" cy="32" r="7" class="f"/></svg>    </div>
     <div class="typeline"><span class="cls">Optional features off by default</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Optional features start switched off and need an active opt-in.</div>
 <div class="flavour">Marketing calls it &#34;a missed opportunity&#34;. Everyone else calls it &#34;the default&#34;.</div>    <div class="foot"><span>SDM D1.7, B1.17 · NIST SA-8</span><span>MIN-DEFAULT-1 · v0.8</span></div>
@@ -874,9 +874,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M24 36h16c0-9 7-11 7-20a15 15 0 0 0-30 0c0 9 7 11 7 20z"/><path d="M10 46h44v7H10zM15 58h34"/></svg>    </div>
     <div class="typeline"><span class="cls">Purpose register and approval</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Keep one register of what each dataset is for and require approval before it is used for anything new. You go <strong>GLOBAL</strong> with the register service once, and from now on every project is checked against it.</div>
 <div class="flavour">&#34;For analytics&#34; has now been entered as the purpose forty times.</div>    <div class="foot"><span>SDM D1.4 · NIST PT-2, PT-3</span><span>LNK-PURPOSE-1 · v0.8</span></div>
@@ -892,8 +892,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="11" y="5" width="42" height="54" rx="4"/><path d="M11 23h42M11 41h42M25 14h14M25 32h14M25 50h14"/></svg>    </div>
     <div class="typeline"><span class="cls">Separate stores per purpose</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Keep data for different purposes in separate stores with separate access paths.</div>
 <div class="flavour">It was one big table because that was easier. It was always going to be easier.</div>    <div class="foot"><span>SDM D1.4, Baustein 50 · NIST AC-4</span><span>LNK-PURPOSE-2 · v0.8</span></div>
@@ -909,9 +909,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M5 31L32 9l27 22"/><path d="M13 25v32h38V25"/><path d="M26 57V40h12v17"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M10 32h42M36 16l16 16-16 16"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Separate organisation or tenant</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +3, impact 0"><b>+3</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −3, impact 0"><b>−3</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Let a separate team or legal entity hold the data of the other purpose, on its own platform. You go <strong>GLOBAL</strong> with that platform once, and from now on every project lives on it.</div>
 <div class="flavour">Legal calls it &#34;organisational separation&#34;. Everyone else calls it &#34;the other building&#34;.</div>    <div class="foot"><span>SDM D1.4 · NIST SC-7</span><span>LNK-PURPOSE-3 · v0.8</span></div>
@@ -927,10 +927,10 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="7" y="9" width="50" height="44" rx="5"/><circle cx="32" cy="31" r="13"/><path d="M32 21v4M32 37v4M22 31h4M38 31h4M15 53v5M49 53v5"/></svg>    </div>
     <div class="typeline"><span class="cls">Pseudonymise, key held separately</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">You introduce a pseudonymisation service: names go in, tokens come out, the key stays in the vault. Since the vault knows nothing about your data model, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">The vault password is, hopefully, not on a sticky note.</div>    <div class="foot"><span>SDM D1.4 · NIST SI-19(4), SC-12</span><span>LNK-ID-1 · v0.8</span></div>
@@ -946,8 +946,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="5" y="26" width="42" height="30" rx="4"/><path d="M14 18h40a4 4 0 0 1 4 4v22M23 10h32a4 4 0 0 1 4 4"/><circle cx="19" cy="38" r="4"/><path d="M12 49h14"/></svg>    </div>
     <div class="typeline"><span class="cls">Different pseudonym per purpose</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Give the same person a different pseudonym for each purpose, so records cannot be matched across them. Since the pseudonymisation service already issues the tokens, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Great for privacy. Less great for the colleague who just wants to join two tables.</div>    <div class="foot"><span>SDM D1.4 · NIST SI-19(4)</span><span>LNK-ID-2 · v0.8</span></div>
@@ -963,8 +963,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="19" r="8"/><path d="M18 52c0-11 6-17 14-17s14 6 14 17z"/><circle cx="11" cy="26" r="6"/><path d="M2 50c0-8 4-13 9-13M62 50c0-8-4-13-9-13"/><circle cx="53" cy="26" r="6"/></svg>    </div>
     <div class="typeline"><span class="cls">Anonymise with thresholds</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact +3"><b>0</b><u></u><b>+3</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact −3"><b>0</b><u></u><b>−3</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Publish only groups above a minimum size and add noise to statistics, so nobody can be picked out. Since the anonymisation tool works on any table, you can <strong>REUSE</strong> it in every project now for 2 extra cost per project.</div>
 <div class="flavour">A group of two is not a group. It is a pair, and it has names.</div>    <div class="foot"><span>SDM D1.4 · NIST SI-19(5), SI-19(6)</span><span>LNK-ID-3 · v0.8</span></div>
@@ -980,8 +980,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M11 51l4-13L41 12l11 11-26 26z"/><path d="M36 17l11 11"/><path d="M6 59h30"/></svg>    </div>
     <div class="typeline"><span class="cls">Onward sharing needs approval</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Require sign-off before data goes to another system or party. You go <strong>GLOBAL</strong> with the approval tool once, and from now on every project needs it.</div>
 <div class="flavour">The sign-off took three weeks. The integration was cancelled in week two.</div>    <div class="foot"><span>SDM D1.4 · NIST AC-21</span><span>LNK-SHARE-1 · v0.8</span></div>
@@ -997,8 +997,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M27 14H11v40h40V37"/><path d="M30 34L54 10M38 10h16v16"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><circle cx="32" cy="32" r="23"/><path d="M15 15l34 34"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Close unused interfaces</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Remove export functions and interfaces nobody needs.</div>
 <div class="flavour">Somebody needed it in 2019. Nobody remembers who.</div>    <div class="foot"><span>SDM D1.4 · NIST AC-4, SC-7</span><span>LNK-SHARE-2 · v0.8</span></div>
@@ -1014,8 +1014,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M6 44a26 26 0 0 1 52 0z"/><path d="M3 51h58M32 18v-3"/><circle cx="32" cy="13" r="3.5" class="f"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M16 16l32 32M48 16L16 48"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Limit bulk queries and profiling</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Cap bulk exports and queries that combine many records. Since the gateway that enforces the limits sits in front of any system, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">&#34;Just download everything and filter it locally&#34; is a plan with a future.</div>    <div class="foot"><span>NIST AC-23</span><span>LNK-MINING-1 · v0.8</span></div>
@@ -1031,10 +1031,10 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="13" y="13" width="38" height="47" rx="5"/><path d="M26 13V6h12v7"/><circle cx="32" cy="31" r="7"/><path d="M21 52c0-7 5-10 11-10s11 3 11 10"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M52 24A21 21 0 0 0 13 26M12 40a21 21 0 0 0 39 2"/><path d="M52 10v14H38M12 54V40h14"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Roles with yearly review</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Give access by job, give every role an owner and recertify it every year. You go <strong>GLOBAL</strong> with the review tool once, and from now on it runs for every project.</div>
 <div class="flavour">The annual review finds the intern from 2017 still has admin rights.</div>    <div class="foot"><span>SDM D1.3, Baustein 51 · NIST AC-2, AC-6</span><span>CON-ACCESS-1 · v0.8</span></div>
@@ -1050,9 +1050,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="5" y="9" width="54" height="46" rx="4" stroke-dasharray="7 5"/><circle cx="32" cy="26" r="7"/><path d="M19 48c0-9 5-13 13-13s13 4 13 13"/></svg>    </div>
     <div class="typeline"><span class="cls">Access by unit or case</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Show staff only the records of their own unit, region or case. Since the access platform can scope any system the same way, you can <strong>REUSE</strong> it in every project now for 2 extra cost per project.</div>
 <div class="flavour">Head office learns what &#34;need to know&#34; means when it asks for a country-wide report.</div>    <div class="foot"><span>SDM D1.3 · NIST AC-3, AC-16</span><span>CON-ACCESS-2 · v0.8</span></div>
@@ -1068,9 +1068,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="9" y="7" width="46" height="50" rx="3"/><path d="M35 7l-7 15 11 6-9 13 7 16"/><path d="M17 18l9 4M47 19l-7 5M19 45l9-5"/></svg>    </div>
     <div class="typeline"><span class="cls">Approval for sensitive records</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +3, impact 0"><b>+3</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −3, impact 0"><b>−3</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Require a second person&#39;s approval and a stated reason before anyone opens a sensitive record.</div>
 <div class="flavour">The emergency was, it turns out, a Friday afternoon.</div>    <div class="foot"><span>SDM D1.3 · NIST AC-5, AC-2(2)</span><span>CON-ACCESS-3 · v0.8</span></div>
@@ -1086,7 +1086,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 6h26l12 12v26H12z"/><path d="M38 6v12h12"/><path d="M20 27h20M20 35h13"/><circle cx="40" cy="47" r="9"/><path d="M34 54l-4 8 9-3 4 4 2-10"/></svg>    </div>
     <div class="typeline"><span class="cls">Contract and stated reason</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Bind supplier staff by contract to confidentiality and make them name a reason for every access. You go <strong>GLOBAL</strong> with the framework contract once, and from now on every supplier signs it.</div>
 <div class="flavour">A contract cannot stop anyone. It can only make them regret it.</div>    <div class="foot"><span>SDM D1.3 · NIST PS-6, SA-9</span><span>CON-SUPPLIER-1 · v0.8</span></div>
@@ -1102,9 +1102,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M5 18h54v10a5 5 0 0 0 0 10v10H5V38a5 5 0 0 0 0-10z"/><path d="M42 18v30" stroke-dasharray="3 4"/><path d="M14 29h19M14 37h13"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M3 32C12 16 22 10 32 10s20 6 29 22c-9 16-19 22-29 22S12 48 3 32z"/><circle cx="32" cy="32" r="9"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Just-in-time logged access</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">You introduce an access tool that gives the supplier&#39;s support a key for one ticket and a few hours. When the ticket closes, the key expires. Since the tool works for any supplier, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Whoever waits for the approval will call this &#34;friction&#34;.</div>    <div class="foot"><span>SDM D1.3 · NIST AC-2(2), AU-2</span><span>CON-SUPPLIER-2 · v0.8</span></div>
@@ -1120,8 +1120,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="25"/><path d="M15 32h34" stroke-width="7"/></svg>    </div>
     <div class="typeline"><span class="cls">No supplier access</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +3, impact 0"><b>+3</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −3, impact 0"><b>−3</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Run it in your own tenancy or on your own premises so the supplier cannot read the data.</div>
 <div class="flavour">The supplier&#39;s support will now ask you to share your screen. Welcome back.</div>    <div class="foot"><span>SDM D1.3 · NIST SC-12, SC-28</span><span>CON-SUPPLIER-3 · v0.8</span></div>
@@ -1137,7 +1137,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><ellipse cx="32" cy="15" rx="21" ry="8"/><path d="M11 15v34c0 4 9 8 21 8s21-4 21-8V15M11 32c0 4 9 8 21 8s21-4 21-8"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><rect x="14" y="28" width="36" height="28" rx="4"/><path d="M21 28v-7a11 11 0 0 1 22 0v7"/><circle cx="32" cy="42" r="3.5" class="f"/></g></svg>    </div>
     <div class="typeline"><span class="cls">At-rest encryption, managed keys</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Encrypt disks and databases and manage the keys centrally. You go <strong>GLOBAL</strong> with the key service once, and from now on every project is covered.</div>
 <div class="flavour">Excellent protection against someone walking out with the disk.</div>    <div class="foot"><span>SDM D1.3 · NIST SC-28, SC-12</span><span>CON-KEYS-1 · v0.8</span></div>
@@ -1153,8 +1153,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="5" y="19" width="54" height="26" rx="4"/><path d="M14 32h20M42 26v12"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><rect x="14" y="28" width="36" height="28" rx="4"/><path d="M21 28v-7a11 11 0 0 1 22 0v7"/><circle cx="32" cy="42" r="3.5" class="f"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Field-level encryption</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Encrypt sensitive attributes individually so even administrators cannot read them. Since the encryption library works on any field, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Searching on that column is now a fond memory.</div>    <div class="foot"><span>SDM D1.3 · NIST SC-28, SC-13</span><span>CON-KEYS-2 · v0.8</span></div>
@@ -1170,8 +1170,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="19" cy="32" r="13"/><circle cx="19" cy="32" r="3.5" class="f"/><path d="M32 32h27M49 32v11M57 32v8"/></svg>    </div>
     <div class="typeline"><span class="cls">Customer-held keys</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact +3"><b>0</b><u></u><b>+3</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact −3"><b>0</b><u></u><b>−3</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Hold the keys yourself so the provider cannot decrypt anything. You go <strong>GLOBAL</strong> with the key custody service once, and from now on it applies to every project.</div>
 <div class="flavour">Lose the key and you have achieved perfect confidentiality, for everyone, forever.</div>    <div class="foot"><span>SDM D1.3 · NIST SC-12</span><span>CON-KEYS-3 · v0.8</span></div>
@@ -1187,9 +1187,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="17" y="5" width="30" height="54" rx="5"/><path d="M27 51h10"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M12 34l14 14 26-30"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Multi-factor authentication</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Require a second factor from everyone who can reach personal data. You go <strong>GLOBAL</strong> with the sign-in service once, and from now on every project signs in the same way.</div>
 <div class="flavour">The phone with the app is, of course, in the other bag.</div>    <div class="foot"><span>SDM D1.3 · NIST IA-2(1), IA-2(2)</span><span>CON-AUTH-1 · v0.8</span></div>
@@ -1205,9 +1205,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="21" y="23" width="22" height="36" rx="3"/><path d="M26 23V8h12v15M28 14h2M34 14h2"/><circle cx="32" cy="43" r="4.5"/></svg>    </div>
     <div class="typeline"><span class="cls">Phishing-resistant authentication</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Use hardware security keys for access to sensitive data. You go <strong>GLOBAL</strong> with them once, and from now on every project accepts only them.</div>
 <div class="flavour">The phishing emails still arrive. They now get a very polite refusal.</div>    <div class="foot"><span>SDM D1.3, D3.4 · NIST IA-2, IA-5</span><span>CON-AUTH-2 · v0.8</span></div>
@@ -1223,8 +1223,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 8v46M17 55h30M10 16h44"/><path d="M10 16L3 38M10 16l7 22M54 16l-7 22M54 16l7 22"/><path d="M3 38a7 7 0 0 0 14 0M47 38a7 7 0 0 0 14 0"/></svg>    </div>
     <div class="typeline"><span class="cls">Bias and error test before launch</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Before launch, test automated results for errors and for disadvantage to groups of people.</div>
 <div class="flavour">The model is 94% accurate. Nobody asked for whom.</div>    <div class="foot"><span>SDM D1.2, B1.16 · NIST SA-11</span><span>INT-DECISION-1 · v0.8</span></div>
@@ -1240,8 +1240,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 57h52"/><path d="M12 57V36h12v21M26 57V16h12v41M40 57V28h12v29"/></svg>    </div>
     <div class="typeline"><span class="cls">Regular outcome monitoring</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Check the results by group every quarter. Since the monitoring dashboard can read any model&#39;s outputs the same way, you can <strong>REUSE</strong> it in every project now for 2 extra cost per project.</div>
 <div class="flavour">Quarter-end is when everyone discovers the model drifted in February.</div>    <div class="foot"><span>SDM D1.2, B1.16</span><span>INT-DECISION-2 · v0.8</span></div>
@@ -1257,8 +1257,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="13" y="5" width="38" height="54" rx="5"/><rect x="20" y="12" width="24" height="11" class="f"/><path d="M21 33h3M30 33h3M40 33h3M21 42h3M30 42h3M40 42h3M21 51h3M30 51h3M40 51h3"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><circle cx="27" cy="27" r="17"/><path d="M40 40l18 18"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Independent audit</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +3, impact 0"><b>+3</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −3, impact 0"><b>−3</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Let an independent party validate the model and its data. Since the audit method is the same for any model, you can <strong>REUSE</strong> it in every project now for 2 extra cost per project.</div>
 <div class="flavour">The auditor&#39;s first question is &#34;where is the documentation?&#34;. The second is worse.</div>    <div class="foot"><span>SDM D1.2, D4</span><span>INT-DECISION-3 · v0.8</span></div>
@@ -1274,7 +1274,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="8" y="14" width="48" height="44" rx="5"/><path d="M8 27h48M21 7v13M43 7v13"/><rect x="18" y="35" width="9" height="9" class="f"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M20 22a12 12 0 1 1 18 10c-5 3-6 6-6 12"/><circle cx="32" cy="55" r="3" class="f"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Plausibility checks at input</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Reject impossible values at input, before they feed a decision.</div>
 <div class="flavour">The system accepted &#34;born in 1900&#34; as a feature, not a bug.</div>    <div class="foot"><span>SDM D1.2, B1.4 · NIST SI-10, SI-18</span><span>INT-INPUT-1 · v0.8</span></div>
@@ -1290,8 +1290,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M52 24A21 21 0 0 0 13 26M12 40a21 21 0 0 0 39 2"/><path d="M52 10v14H38M12 54V40h14"/></svg>    </div>
     <div class="typeline"><span class="cls">Correction loop with propagation</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">When a value is corrected at the source, make the fix reach every copy. Since the sync service works for any connected system, you can <strong>REUSE</strong> it in every project now for 2 extra cost per project.</div>
 <div class="flavour">There are four copies of that record. You have found three.</div>    <div class="foot"><span>SDM D1.2 · NIST SI-18(4), SI-18(5)</span><span>INT-INPUT-2 · v0.8</span></div>
@@ -1307,7 +1307,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M2 32c5-9 9-12 14-12s9 3 14 12c-5 9-9 12-14 12S7 41 2 32z"/><circle cx="16" cy="32" r="4.5"/><path d="M34 32c5-9 9-12 14-12s9 3 14 12c-5 9-9 12-14 12s-9-3-14-12z"/><circle cx="48" cy="32" r="4.5"/></svg>    </div>
     <div class="typeline"><span class="cls">Four-eyes on sensitive changes</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Require a second person to approve edits to records that affect people.</div>
 <div class="flavour">Both people assumed the other one had checked.</div>    <div class="foot"><span>SDM D1.2 · NIST AC-5, CM-5</span><span>INT-CHANGE-1 · v0.8</span></div>
@@ -1323,8 +1323,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M25 7l-6 50M45 7l-6 50M9 24h47M7 42h47"/></svg>    </div>
     <div class="typeline"><span class="cls">Tamper-evident records</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Use checksums, signatures or append-only storage so changes cannot pass unnoticed. Since the integrity service seals records the same way everywhere, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">The record was changed on a Sunday at 3 a.m. At least you know now.</div>    <div class="foot"><span>SDM D1.2 · NIST SI-7</span><span>INT-CHANGE-2 · v0.8</span></div>
@@ -1340,7 +1340,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M13 6h32a4 4 0 0 1 4 4v48H13z"/><path d="M22 6v52M29 20h14M29 29h14M29 38h9"/></svg>    </div>
     <div class="typeline"><span class="cls">Documented manual fallback</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Document a manual process that takes over during an outage, so people are not disadvantaged.</div>
 <div class="flavour">The binder with the procedure is stored in the system that is down.</div>    <div class="foot"><span>SDM D1.1 · NIST CP-2</span><span>AVL-FALLBACK-1 · v0.8</span></div>
@@ -1356,7 +1356,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M14 46V30a18 18 0 0 1 36 0v16l6 6H8z"/><path d="M25 56a7 7 0 0 0 14 0"/></svg>    </div>
     <div class="typeline"><span class="cls">Rehearsed fallback</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
     </div>
     <div class="text">Rehearse the fallback every year. Since the drill plan fits any process, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Half the team learned the fallback exists during the drill.</div>    <div class="foot"><span>SDM D1.1 · NIST CP-4</span><span>AVL-FALLBACK-2 · v0.8</span></div>
@@ -1372,9 +1372,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="3" y="11" width="25" height="42" rx="3"/><path d="M3 25h25M3 39h25M9 18h2M9 32h2M9 46h2"/><rect x="36" y="11" width="25" height="42" rx="3"/><path d="M36 25h25M36 39h25M42 18h2M42 32h2M42 46h2"/></svg>    </div>
     <div class="typeline"><span class="cls">Redundant critical functions</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Keep a second site that takes over automatically when the first one fails. You go <strong>GLOBAL</strong> with it once, and from now on every project runs on that platform.</div>
 <div class="flavour">Now there are two places to protect, to patch and to forget about.</div>    <div class="foot"><span>SDM D1.1 · NIST CP-6, CP-7</span><span>AVL-REDUNDANCY-1 · v0.8</span></div>
@@ -1390,7 +1390,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="16" cy="17" r="6"/><path d="M5 40c0-8 5-12 11-12s11 4 11 12z"/><circle cx="48" cy="17" r="6"/><path d="M37 40c0-8 5-12 11-12s11 4 11 12z"/><path d="M14 52h36M42 45l8 7-8 7M22 45l-8 7 8 7"/></svg>    </div>
     <div class="typeline"><span class="cls">Deputies for key roles</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
     </div>
     <div class="text">Name a substitute for every key role. You go <strong>GLOBAL</strong> with the roster once, and from now on every project has one.</div>
 <div class="flavour">The substitute is on holiday too. It was in the plan.</div>    <div class="foot"><span>SDM D1.1</span><span>AVL-DEPUTY-1 · v0.8</span></div>
@@ -1406,7 +1406,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M25 16h31M25 32h31M25 48h31"/><path d="M7 16l4 4 8-9M7 32l4 4 8-9M7 48l4 4 8-9"/></svg>    </div>
     <div class="typeline"><span class="cls">Document scoring factors</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Write down which factors feed a score or an automated decision.</div>
 <div class="flavour">Factor number seven is &#34;other&#34;.</div>    <div class="foot"><span>SDM D1.5</span><span>TRA-SCORE-1 · v0.8</span></div>
@@ -1422,8 +1422,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 10h52v32H30l-12 13V42H6z"/><path d="M17 22h30M17 31h18"/></svg>    </div>
     <div class="typeline"><span class="cls">Explain factors in plain language</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Explain in everyday language to the people affected which factors count.</div>
 <div class="flavour">Legal approved the wording. Nobody has read it since.</div>    <div class="foot"><span>SDM D1.5, B1.1</span><span>TRA-SCORE-2 · v0.8</span></div>
@@ -1439,8 +1439,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="13" y="5" width="38" height="54" rx="5"/><rect x="20" y="12" width="24" height="11" class="f"/><path d="M21 33h3M30 33h3M40 33h3M21 42h3M30 42h3M40 42h3M21 51h3M30 51h3M40 51h3"/></svg>    </div>
     <div class="typeline"><span class="cls">Reasons per decision</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +3"><b>0</b><u></u><b>+3</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −3"><b>0</b><u></u><b>−3</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Give every decision the reasons behind it, so people can contest it.</div>
 <div class="flavour">&#34;The model said so&#34; is not a reason, but it does fit on one line.</div>    <div class="foot"><span>SDM D1.5</span><span>TRA-SCORE-3 · v0.8</span></div>
@@ -1456,7 +1456,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 10h52v32H30l-12 13V42H6z"/><path d="M32 23v13"/><circle cx="32" cy="16" r="2.5" class="f"/></svg>    </div>
     <div class="typeline"><span class="cls">Just-in-time notice</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Show a short notice at the exact moment data is collected. Since the notice component works in any screen or form, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Read by roughly three people, one of them from legal.</div>    <div class="foot"><span>SDM D1.5 · NIST PT-5(1)</span><span>TRA-NOTICE-1 · v0.8</span></div>
@@ -1472,9 +1472,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="21" cy="19" r="8"/><path d="M7 54c0-12 6-18 14-18"/><path d="M28 40c5-9 11-12 17-12s12 3 17 12c-5 9-11 12-17 12s-12-3-17-12z"/><circle cx="45" cy="40" r="4.5"/></svg>    </div>
     <div class="typeline"><span class="cls">&#34;Who accessed my data&#34; view</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Let people see who accessed their records. You go <strong>GLOBAL</strong> with the access view service once, and from now on every project shows it.</div>
 <div class="flavour">Everyone is shocked how often their own manager looks.</div>    <div class="foot"><span>SDM D1.5</span><span>TRA-NOTICE-2 · v0.8</span></div>
@@ -1490,9 +1490,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M5 13h19l6 8h24v9"/><path d="M5 55V13M5 55l10-25h47L52 55z"/></svg>    </div>
     <div class="typeline"><span class="cls">Log access to sensitive data</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">You roll out a logging platform that records who opened which record, and when. Since the platform logs any system the same way, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Most days nobody reads it. Then someone looks up their neighbour, and the platform remembers.</div>    <div class="foot"><span>SDM D1.5, Baustein 43 · NIST AU-2</span><span>TRA-LOG-1 · v0.8</span></div>
@@ -1508,9 +1508,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M7 8h30v48H7z"/><path d="M13 19h18M13 28h18M13 37h10"/><circle cx="44" cy="39" r="10"/><path d="M51 46l9 10"/></svg>    </div>
     <div class="typeline"><span class="cls">Review logs and alert</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Analyse the logs regularly and raise alerts for unusual access. Since the alerting service reads any log format, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Alert fatigue arrives in week two.</div>    <div class="foot"><span>SDM D1.5 · NIST AU-6, SI-4</span><span>TRA-LOG-2 · v0.8</span></div>
@@ -1526,11 +1526,11 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="11" y="5" width="42" height="54" rx="3"/><path d="M19 17h26M19 27h26M19 37h26M19 47h13"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><rect x="14" y="28" width="36" height="28" rx="4"/><path d="M21 28v-7a11 11 0 0 1 22 0v7"/><circle cx="32" cy="42" r="3.5" class="f"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Tamper-protected log store</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +3"><b>0</b><u></u><b>+3</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −3"><b>0</b><u></u><b>−3</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Logs go to a dedicated log service that nobody can alter, not even administrators. You go <strong>GLOBAL</strong> with it once, and from now on it covers every project automatically.</div>
 <div class="flavour">The one incident where the logs &#34;got lost&#34; is now a very short story. Of course, every log of every project now sits in one very attractive place.</div>    <div class="foot"><span>SDM D3.4 · NIST AU-9</span><span>TRA-LOG-3 · v0.8</span></div>
@@ -1546,8 +1546,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><circle cx="32" cy="19" r="8"/><path d="M18 52c0-11 6-17 14-17s14 6 14 17z"/><circle cx="11" cy="26" r="6"/><path d="M2 50c0-8 4-13 9-13M62 50c0-8-4-13-9-13"/><circle cx="53" cy="26" r="6"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M6 10h52v32H30l-12 13V42H6z"/><path d="M17 22h30M17 31h18"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Consult affected people early</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Involve the people affected, or their representatives, in the design.</div>
 <div class="flavour">They asked the one question nobody had thought of.</div>    <div class="foot"><span>SDM Art. 35(9)</span><span>TRA-VOICE-1 · v0.8</span></div>
@@ -1563,7 +1563,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="5" y="13" width="54" height="39" rx="4"/><path d="M7 17l25 19 25-19"/></svg>    </div>
     <div class="typeline"><span class="cls">Shared mailbox, manual lookup</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Offer one email address and look the person up in the systems by hand.</div>
 <div class="flavour">Works, as long as the one person who knows where to look is in today.</div>    <div class="foot"><span>SDM D1.6</span><span>INV-REQUESTS-1 · v0.8</span></div>
@@ -1579,8 +1579,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M5 18h54v10a5 5 0 0 0 0 10v10H5V38a5 5 0 0 0 0-10z"/><path d="M42 18v30" stroke-dasharray="3 4"/><path d="M14 29h19M14 37h13"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><circle cx="32" cy="32" r="24"/><path d="M32 16v17l11 7"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Request tickets with ID check</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Run requests through a ticket workflow with an owner, a deadline and an identity check. You go <strong>GLOBAL</strong> with the workflow once, and from now on every project plugs into it.</div>
 <div class="flavour">The deadline is thirty days. The first ticket arrives on day twenty-nine.</div>    <div class="foot"><span>SDM D1.6, B1.9 · NIST SI-18(4)</span><span>INV-REQUESTS-2 · v0.8</span></div>
@@ -1596,9 +1596,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="5" y="9" width="54" height="46" rx="4"/><path d="M5 22h54M13 15.5h2M20 15.5h2"/><circle cx="32" cy="33" r="5"/><path d="M22 51c0-6 4-9 10-9s10 3 10 9"/></svg>    </div>
     <div class="typeline"><span class="cls">Self-service portal</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +3"><b>0</b><u></u><b>+3</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −3"><b>0</b><u></u><b>−3</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #26262c; --gi: #ffffff" title="Confidentiality: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Let people view, correct and export their data in a portal. You go <strong>GLOBAL</strong> with the portal once, and from now on every project shows up in it.</div>
 <div class="flavour">A new front door. Somebody has to lock it.</div>    <div class="foot"><span>SDM D1.6 · NIST SI-18(4)</span><span>INV-REQUESTS-3 · v0.8</span></div>
@@ -1614,7 +1614,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M22 5h20l9 9v31H22z"/><path d="M14 14v39h30"/><path d="M7 23v39h30"/></svg>    </div>
     <div class="typeline"><span class="cls">Cross-system checklist</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">List every place where a person&#39;s data lives, and walk the list when someone asks.</div>
 <div class="flavour">The list is missing the shared drive. The shared drive knows.</div>    <div class="foot"><span>SDM D1.6</span><span>INV-ALLDATA-1 · v0.8</span></div>
@@ -1630,9 +1630,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="13" cy="13" r="5"/><circle cx="48" cy="11" r="5"/><circle cx="13" cy="47" r="5"/><path d="M18 13h25M13 18v24M17 17l13 13"/><circle cx="38" cy="38" r="11"/><path d="M46 46l12 12"/></svg>    </div>
     <div class="typeline"><span class="cls">Person-level lookup across systems</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +2"><b>0</b><u></u><b>+2</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −2"><b>0</b><u></u><b>−2</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #8e44c8; --gi: #ffffff" title="Unlinkability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Use a data inventory and ID mapping to find, correct and delete everything about a person. You go <strong>GLOBAL</strong> with the inventory once, and from now on every project is in the index.</div>
 <div class="flavour">To delete a person you first have to link them everywhere. Privacy, meet paradox.</div>    <div class="foot"><span>SDM D1.6 · NIST PM-5(1), SI-18(5)</span><span>INV-ALLDATA-2 · v0.8</span></div>
@@ -1648,8 +1648,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><circle cx="28" cy="20" r="8"/><path d="M10 58c0-15 7-24 18-24s18 9 18 24z"/><path d="M50 10v22M44 16l6-8 6 8"/></svg>    </div>
     <div class="typeline"><span class="cls">Human review on request</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">A person decides again when someone contests an automated result.</div>
 <div class="flavour">The person is called Dave. Dave has 400 other cases.</div>    <div class="foot"><span>SDM B1.15</span><span>INV-HUMAN-1 · v0.8</span></div>
@@ -1665,8 +1665,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><circle cx="32" cy="20" r="9"/><path d="M12 57c0-15 8-23 20-23s20 8 20 23z"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M12 34l14 14 26-30"/></g></svg>    </div>
     <div class="typeline"><span class="cls">No adverse decision on a score alone</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">A person has to read the case and sign the decision before any adverse outcome.</div>
 <div class="flavour">Reviewed in four seconds, approved in three. Progress.</div>    <div class="foot"><span>SDM B1.15</span><span>INV-HUMAN-2 · v0.8</span></div>
@@ -1682,9 +1682,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><path d="M11 51l4-13L41 12l11 11-26 26z"/><path d="M36 17l11 11"/><path d="M6 59h30"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M32 12v40M12 32h40"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Documented second review</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +3, impact 0"><b>+3</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −3, impact 0"><b>−3</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #1f5fd6; --gi: #ffffff" title="Integrity: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">A second reviewer writes down the reasons for an adverse decision.</div>
 <div class="flavour">The reasons are &#34;see above&#34;.</div>    <div class="foot"><span>SDM B1.15</span><span>INV-HUMAN-3 · v0.8</span></div>
@@ -1700,7 +1700,7 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><g transform="scale(.9)"><rect x="5" y="21" width="54" height="22" rx="11"/><circle cx="47" cy="32" r="7" class="f"/></g><g class="sym-badge" transform="translate(32 32) scale(.5)"><circle cx="32" cy="32" r="31" class="sym-badge-bg"/><path d="M6 10h52v32H30l-12 13V42H6z"/><path d="M17 22h30M17 31h18"/></g></svg>    </div>
     <div class="typeline"><span class="cls">Opt-out per purpose on request</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
     </div>
     <div class="text">Handle an opt-out per purpose when someone asks.</div>
 <div class="flavour">A form for it exists. Finding the form is the real opt-out.</div>    <div class="foot"><span>SDM D1.6</span><span>INV-SWITCH-1 · v0.8</span></div>
@@ -1716,8 +1716,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 17h52M6 32h52M6 47h52"/><circle cx="21" cy="17" r="5.5" class="f"/><circle cx="43" cy="32" r="5.5" class="f"/><circle cx="28" cy="47" r="5.5" class="f"/></svg>    </div>
     <div class="typeline"><span class="cls">Settings page</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Let users decide which optional processing applies to them. Since the settings page is a component any product can embed, you can <strong>REUSE</strong> it in every project now for 1 extra cost per project.</div>
 <div class="flavour">Nobody changes the defaults. Everybody wants to be able to.</div>    <div class="foot"><span>SDM D1.6, B1.17</span><span>INV-SWITCH-2 · v0.8</span></div>
@@ -1733,8 +1733,8 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 5v26"/><path d="M17 16a24 24 0 1 0 30 0"/></svg>    </div>
     <div class="typeline"><span class="cls">Switch a function off</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact +3"><b>0</b><u></u><b>+3</b></span>
-      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact −1"><b>0</b><u></u><b>−1</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability 0, impact −3"><b>0</b><u></u><b>−3</b></span>
+      <span class="fx" style="--gc: #4caf2a; --gi: #1d2433" title="Availability: probability 0, impact +1"><b>0</b><u></u><b>+1</b></span>
     </div>
     <div class="text">Make one function switchable off without stopping the whole system.</div>
 <div class="flavour">Nobody wants to need it. Everybody wants to know where it is at 3 a.m.</div>    <div class="foot"><span>SDM D1.6</span><span>INV-SWITCH-3 · v0.8</span></div>
@@ -1750,9 +1750,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><rect x="5" y="7" width="15" height="15" rx="2"/><rect x="5" y="25" width="15" height="15" rx="2"/><rect x="5" y="43" width="15" height="15" rx="2"/><path d="M8 14l4 4 6-7M8 32l4 4 6-7"/><path d="M28 15h31M28 33h31M28 51h31"/></svg>    </div>
     <div class="typeline"><span class="cls">Granular consent and withdrawal</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Offer separate choices per purpose. Only relevant if consent is the legal basis. You go <strong>GLOBAL</strong> with the consent platform once, and from now on every project uses it.</div>
 <div class="flavour">&#34;I agree to everything&#34; remains the most popular button.</div>    <div class="foot"><span>SDM D1.6, B2 · NIST PT-4(1)</span><span>INV-CONSENT-1 · v0.8</span></div>
@@ -1768,9 +1768,9 @@ body.game::after {  /* vignette */
 <svg class="sym" viewBox="0 0 64 64" aria-hidden="true"><path d="M18 22h24a14 14 0 0 1 0 28H24"/><path d="M28 10L16 22l12 12"/></svg>    </div>
     <div class="typeline"><span class="cls">Just-in-time consent</span><span class="ftype"></span></div>
     <div class="fxstrip">
-      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability +2, impact 0"><b>+2</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
-      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #c62828; --gi: #ffffff" title="Intervenability: probability −2, impact 0"><b>−2</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f6e84a; --gi: #1d2433" title="Transparency: probability −1, impact 0"><b>−1</b><u></u><b>0</b></span>
+      <span class="fx" style="--gc: #f06a12; --gi: #ffffff" title="Data Minimisation: probability +1, impact 0"><b>+1</b><u></u><b>0</b></span>
     </div>
     <div class="text">Ask for consent when it becomes relevant and let people withdraw in one step. Only relevant if consent is the legal basis. You go <strong>GLOBAL</strong> with the consent platform once, and from now on every project can use it.</div>
 <div class="flavour">Saying yes took one click. Saying no took four. Somebody fixed it.</div>    <div class="foot"><span>SDM B2 · NIST PT-4(2), PT-4(3)</span><span>INV-CONSENT-2 · v0.8</span></div>
@@ -3022,13 +3022,25 @@ body.game::after {  /* vignette */
     });
     function cx(i) { return padL + (i - lo + 0.5) * cell; }
     function cy(p) { return padT + (hi - p + 0.5) * cell; }
-    for (var p = lo; p <= hi; p++) {
-      for (var i = lo; i <= hi; i++) {
-        var x = cx(i) - cell / 2, y = cy(p) - cell / 2, lv = levelOf(p * i);
-        svg('rect', { x: x + 1, y: y + 1, width: cell - 2, height: cell - 2, rx: 3, fill: 'url(#' + id + lv + ')' }, root);
-        svg('rect', { x: x + 1.5, y: y + 1.5, width: cell - 3, height: (cell - 3) / 2, rx: 2.5,
+    /* The grid has one cell per marker step (8 x 8 for steps of a half); the legend still counts whole
+       values (1 to 4), each number in the middle of its group of cells. A cell takes the level of its
+       middle point. */
+    var sub = Math.max(1, Math.round(1 / cfg.setup.stepSize)), sc = cell / sub;
+    function clamp(v) { return Math.min(hi, Math.max(lo, v)); }
+    for (var a = 0; a < n * sub; a++) {          // a: row from the top, b: column from the left
+      for (var b = 0; b < n * sub; b++) {
+        var pv = clamp(hi + 0.5 - (a + 0.5) / sub), iv = clamp(lo - 0.5 + (b + 0.5) / sub);
+        var x = padL + b * sc, y = padT + a * sc, lv = levelOf(pv * iv);
+        svg('rect', { x: x + .5, y: y + .5, width: sc - 1, height: sc - 1, rx: 2, fill: 'url(#' + id + lv + ')' }, root);
+        svg('rect', { x: x + 1, y: y + 1, width: sc - 2, height: (sc - 2) / 2, rx: 1.5,
                       fill: '#fff', 'fill-opacity': .13 }, root);   // soft top gloss
       }
+    }
+    for (var q = 0; q <= n; q++) {                // a firmer line between the whole values
+      svg('line', { x1: padL + q * cell, y1: padT, x2: padL + q * cell, y2: padT + n * cell,
+                    stroke: '#10151f', 'stroke-opacity': .55, 'stroke-width': 1.2 }, root);
+      svg('line', { x1: padL, y1: padT + q * cell, x2: padL + n * cell, y2: padT + q * cell,
+                    stroke: '#10151f', 'stroke-opacity': .55, 'stroke-width': 1.2 }, root);
     }
     for (var k = lo; k <= hi; k++) {
       svg('text', { x: cx(k), y: h - 14, class: 'ax', 'text-anchor': 'middle' }, root).textContent = k;
@@ -3107,7 +3119,7 @@ body.game::after {  /* vignette */
   }
 
   /* ------------------------------------------------------------------ cards */
-  function signed(v) { return v === 0 ? '0' : (v > 0 ? '+' : '−') + Math.abs(v); }
+  function signed(v) { return v === 0 ? '0' : (v > 0 ? '−' : '+') + Math.abs(v); }
 
   function cardFace(id) {
     var face = store.querySelector('#card-' + id).cloneNode(true);
@@ -3785,6 +3797,6 @@ body.game::after {  /* vignette */
   }
 })();
 </script>
-<style>.credits a{color:#e8d9a0;text-underline-offset:2px}.credits a:hover{color:#fff}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#c9c5b4}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#aaa592}</style><!-- built from dpia-tabletop 0c48f47 --><footer class="credits"><p><a href="index.html">Start page</a> · <a href="paper.html">Play on paper</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
+<style>.credits a{color:#e8d9a0;text-underline-offset:2px}.credits a:hover{color:#fff}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#c9c5b4}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#aaa592}</style><!-- built from dpia-tabletop 74681fb --><footer class="credits"><p><a href="index.html">Start page</a> · <a href="paper.html">Play on paper</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
 </body>
 </html>
