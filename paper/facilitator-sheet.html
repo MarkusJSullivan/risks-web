@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>Facilitator sheet: The Data Protection Risk Game</title><style>
 @page { size: A4 portrait; margin: 8mm; }
-body { font-family: Georgia, serif; max-width: 190mm; margin: 0 auto; padding: 1mm; color: #1d2433; font-size: 9.2pt; line-height: 1.25; }
+body { font-family: Georgia, serif; max-width: 190mm; margin: 0 auto; padding: 1mm; color: #1d2433; font-size: 9.2pt; line-height: 1.20; }
 h1 { font-size: 20pt; margin: 0 0 1mm; }
-h2 { font-size: 11.5pt; margin: 2mm 0 1mm; border-bottom: 1px solid #ccc; padding-bottom: 1mm; }
+h3 { font-size: 9pt; margin: 1mm 0 0.4mm; }
+h2 { font-size: 10pt; margin: 1.2mm 0 0.6mm; border-bottom: 1px solid #ccc; padding-bottom: 1mm; }
 .sub { margin: 0 0 3mm; color: #555; font-style: italic; }
-.flow { width: 52%; margin: 0; }
+.flow { width: 34%; margin: 0; }
 table { border-collapse: collapse; margin: 1mm 0; width: 100%; }
 th, td { border: 1px solid #bbb; padding: 0.4mm 2.5mm; text-align: left; vertical-align: middle; }
 th { background: #f1ede0; }
@@ -18,23 +19,45 @@ td img { vertical-align: middle; }
 .row p { margin: 0; }
 .power { margin: 1mm 0; padding-left: 5mm; }
 .power li { margin: 0.4mm 0; }
-.optional { background: #e8f0fe; border-left: 4px solid #3b6fd4; padding: 1.5mm 3mm; margin: 2mm 0; }
+.optional { background: #e8f0fe; border-left: 4px solid #3b6fd4; padding: 1mm 3mm; margin: 1.2mm 0; }
+.tip { background: #fff4d6; border-left: 4px solid #e0b53c; padding: 1mm 3mm; margin: 1.2mm 0; }
+ol.steps { margin: 1mm 0; padding-left: 5mm; }
+ol.steps li { margin: 0.4mm 0; }
+.pw { display: block; margin-top: 0.6mm; padding: 0.4mm 2mm; background: #fff4d6; border-left: 3px solid #e0b53c; }
 </style></head><body>
 <h1>Facilitator sheet</h1>
-<p class="sub">The Data Protection Risk Game, paper version. The numbers can be changed. Try them on a table.</p>
 
-<img class="flow" src="img/flow.svg" alt="A project: start, four turns, end, next project">
+<h2>1. Start of the project</h2>
+<ol class="steps">
+<li><strong>Cards.</strong> Every team has [9] cards in hand, blue cards turned upright again. Deal up from the draw pile.</li>
+<li><strong>Coins.</strong> Pay each team [10]. First project: plus [20] starting coins, [30] in all. <span class="pw"><strong>Your power:</strong> more generous = longer game, stricter = shorter. Same for every team. Make up reasons: "Budget freeze", "Economy is taking off".</span></li>
+<li><strong>Risks.</strong> Turn over one or more risk cards. Short story. Same risks for every team.</li>
+<li><strong>Matrices and figures.</strong> One matrix per risk. Risk card circle: <strong>left number = probability, right number = impact</strong>. Put the figure of that colour on that space (see matrix).</li>
+<li><strong>Yellow cards.</strong> Every upright yellow card still has to make its moves, once, on the new matrices. Then it is turned sideways. None in the first project.</li>
+</ol>
 
-<h2>Your jobs</h2>
-<div class="row"><img src="img/coin.svg" width="34" alt="">
-<p><strong>Start.</strong> Pay each team [10] coins. Turn over the risk cards and tell a short story about them.</p></div>
-<div class="row"><img src="img/card-grey.svg" width="26" alt="">
-<p><strong>Each turn.</strong> After the teams have acted, draw an event card and read it out. It affects all teams and does what the card says.</p></div>
-<div class="row"><img src="img/d20.svg" width="42" alt="d20">
-<p><strong>End.</strong> Each team rolls its d20 once, in the open. Check every figure on its matrices (below), name the cost and tell what happened.</p></div>
 
-<h2>Does something go wrong?</h2>
-<p>A figure is safe if the roll is the number of its <strong>probability row</strong> or above.</p>
+<h2>2. Each of the four turns</h2>
+<p><strong>Teams</strong> (one action each, all at once): <strong>play a card</strong>, pay its coins, move figures on every matrix. Or <strong>swap</strong> up to [5] cards, free (not sideways blue cards). <span class="pw"><strong>Your power:</strong> 1 or 2 coins when a team explains well why its measure fits the risk. Nothing for a funny story that does not fit.</span></p>
+<ul class="power">
+<li>Grey: discard, draw a new card.</li>
+<li>Blue: face up and turned sideways next to the team, no draw. Once per project. Still part of the hand. Face up = played before, so replay price.</li>
+<li>Yellow: face up on the table, turned sideways (moves made this project), draw. Moves now.</li>
+</ul>
+<p><strong>You:</strong> check the moves. After all teams: draw an event card, read it out, applies to all. "Lose one action" = turn lost, "gain one action" = extra turn. Draw pile empty: reshuffle discard. Events can change the number of turns.</p>
+
+
+<h2>3. End of the project</h2>
+<h3>a) Optional: the DPO (before rolling)</h3>
+<div class="optional"><strong>Optional rule.</strong> Ask before anybody rolls. A team with a figure in the red pays [1] coin (not refunded) for a DPO, who argues to stop the project. Roll your d20 in secret: [10] or above = management open to it, a good argument beats a low roll. <span class="pw"><strong>Your power:</strong> yes if the argument names a real weakness, the roll is only a guide.</span>
+<ul class="power">
+<li><strong>Bought:</strong> no roll, no check, no cost this round. The risk comes back next round: same matrices and figures, full turns again, on top of the new risks. Blue and yellow cards are not played on the moved matrices: only grey cards move their figures.</li>
+<li><strong>Not bought:</strong> continue as normal with b) Roll. The coin is lost.</li>
+</ul></div>
+
+
+<h3>b) Roll</h3>
+<p>Each team rolls its d20 once, in the open. Safe if the roll is the <strong>probability row</strong> number or above.</p>
 <table><thead><tr><th>Probability</th><th>Needs to roll</th><th>Chance of trouble</th></tr></thead><tbody>
 <tr class="zone-high"><td>4</td><td>20</td><td>95%, only a natural 20 saves you</td></tr>
 <tr class="zone-high"><td>3</td><td>14 or above</td><td>65%</td></tr>
@@ -42,28 +65,19 @@ td img { vertical-align: middle; }
 <tr class="zone-low"><td>1</td><td>2 or above</td><td>5%, only a natural 1 fails</td></tr>
 </tbody></table>
 
-<h2>What does it cost? What happened?</h2>
-<p>For a figure that fails, look at its <strong>impact</strong>, the column. The cost is the impact times the impact, in coins. You make up the story.</p>
+<h3>c) Cost and story</h3>
+<p>Per failed figure: cost = <strong>impact</strong> (column) squared, in coins. You make up the story. Cannot pay = out of business.</p>
 <table><thead><tr><th>Impact</th><th></th><th>Cost</th><th>The story</th></tr></thead><tbody>
-<tr><td>1</td><td><img src="img/story-1.svg" height="22" alt=""></td><td>[1] <img src="img/coin.svg" height="18" alt="coin"></td><td>A complaint. Someone writes in, and you answer.</td></tr>
-<tr><td>2</td><td><img src="img/story-2.svg" height="22" alt=""></td><td>[4] <img src="img/coin.svg" height="18" alt="coin"></td><td>A report to the authority. Lawyers and forms.</td></tr>
-<tr><td>3</td><td><img src="img/story-3.svg" height="22" alt=""></td><td>[9] <img src="img/coin.svg" height="18" alt="coin"></td><td>An inquiry by the authority. Lawyers, and changes you have to make.</td></tr>
-<tr><td>4</td><td><img src="img/story-4.svg" height="22" alt=""></td><td>[16] <img src="img/coin.svg" height="18" alt="coin"></td><td>People get hurt. A lawsuit, damages and the newspapers.</td></tr>
+<tr><td>1</td><td><img src="img/story-1.svg" height="22" alt=""></td><td>[1] <img src="img/coin.svg" height="18" alt="coin"></td><td>A complaint. Someone writes in, you answer.</td></tr>
+<tr><td>2</td><td><img src="img/story-2.svg" height="22" alt=""></td><td>[4] <img src="img/coin.svg" height="18" alt="coin"></td><td>Report to the authority. Lawyers and forms.</td></tr>
+<tr><td>3</td><td><img src="img/story-3.svg" height="22" alt=""></td><td>[9] <img src="img/coin.svg" height="18" alt="coin"></td><td>Inquiry by the authority. Lawyers, forced changes.</td></tr>
+<tr><td>4</td><td><img src="img/story-4.svg" height="22" alt=""></td><td>[16] <img src="img/coin.svg" height="18" alt="coin"></td><td>People get hurt. Lawsuit, damages, newspapers.</td></tr>
 </tbody></table>
-<p>A team that cannot pay is out of business.</p>
-<div class="optional"><strong>Optional rule.</strong> A team that cannot pay may make a convincing argument to management why it was not their fault. Management, played by you, may cover some or all of the fee.</div>
+<div class="optional"><strong>Optional rule.</strong> A team that cannot pay argues to management it was not their fault. You play management. Roll your d20 in secret as a guide: [10] or above = open to covering, a good argument beats a low roll. May cover some or all of the fee. <span class="pw"><strong>Your power:</strong> cover part if its measures fitted its risks, none if they were scattered.</span></div>
 
-<h2>Optional: the DPO</h2>
-<div class="optional"><strong>Optional rule.</strong> Only for a high risk: a team with a figure in the red can pay [1] coin to appoint a DPO, who argues why the project must be stopped. Listen, roll your d20 in secret and keep the roll to yourself. Decide in each case whether management buys it. As a guide, a roll of [10] or above means management is open to it, and a good argument can make up for a low roll.
-If you buy it, the project moves to the next round: the team keeps its matrices and figures, gets the full number of turns again, and has no roll and no check this time. The project is extra to the new risks. The coin is not refunded.</div>
 
-<h2>Using your power</h2>
-<p>You decide on the optional rules and on coins. Use that to reward good decisions, never to hand out coins at random: careless play should cost a team, and careful play should pay.</p>
-<ul class="power">
-<li><strong>Creative explanation.</strong> Give 1 or 2 coins when a team explains well why its measure fits the risk it is working on. Give nothing for a funny story that does not fit.</li>
-<li><strong>A fee a team cannot pay.</strong> Cover part of it when the team's measures fitted its risks. Cover none of it when the measures were scattered.</li>
-<li><strong>The DPO.</strong> Say yes when the argument names a real weakness of the project. The roll is only a guide.</li>
-<li><strong>Length of the game.</strong> More generous with coins and fees makes it longer; stricter makes it shorter. Decide before you start, and keep it the same for every team.</li>
-</ul>
-<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><!-- built from dpia-tabletop 0ad9584 --><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
+<h2>4. Next project</h2>
+<p>Back to step 1. Turn blue and yellow cards upright again (also after a bought DPO). Blue cards stay in the hand, yellow cards on the table, all face up.</p>
+
+<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><!-- built from dpia-tabletop a5a3003 --><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
 </body></html>

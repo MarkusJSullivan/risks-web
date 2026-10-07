@@ -44,6 +44,29 @@ img { max-width: 100%; }
 </ul>
 <p><img src="mockups/risk-matrix.png" alt="The risk matrix with its zones and the colours of the goals" width="420"></p>
 
+<h3>Reading a card and moving a figure</h3>
+<p><img src="img/read-card.svg" alt="A measure card next to the matrix: the left number of a circle is the probability, the right number the impact; a minus moves the figure down or left" width="900"></p>
+<p><strong>The parts of a card, one by one.</strong></p>
+<p><img src="img/read-parts.svg" alt="The parts of a card: the price, the price of a blue card, the frame colour, the left number, the right number, the goal colour, minus, plus and zero, and the seven goal colours" width="900"></p>
+<p><strong>A minus lowers the risk, a plus raises it.</strong> Think of it as the change to the number on the matrix.</p>
+<table>
+<tr><th>On the card</th><th>What the figure does</th></tr>
+<tr><td>Left number, <strong>&minus;2</strong></td><td>Probability goes down by 2: the figure moves <strong>2 spaces down</strong>.</td></tr>
+<tr><td>Right number, <strong>&minus;1</strong></td><td>Impact goes down by 1: the figure moves <strong>1 space to the left</strong>.</td></tr>
+<tr><td>Left number, <strong>+1</strong></td><td>Probability goes up by 1: the figure moves <strong>1 space up</strong>. This is a downside of the card.</td></tr>
+<tr><td>Right number, <strong>+1</strong></td><td>Impact goes up by 1: the figure moves <strong>1 space to the right</strong>. This is a downside of the card.</td></tr>
+<tr><td><strong>0</strong></td><td>The figure does not move on this side.</td></tr>
+</table>
+<ol>
+<li>Look at the first circle and find the figure of its colour on a matrix.</li>
+<li>Move it by the left number along the rows, then by the right number along the columns.</li>
+<li>A figure never leaves the matrix: it stops at 1 at the bottom and left, and at 4 at the top and right.</li>
+<li>Do the same for every other circle of the card, with its own colour.</li>
+<li>Do all of it on <strong>every matrix of the project</strong> that has a figure of that colour. A risk without a figure of that colour is not affected.</li>
+</ol>
+<p><strong>A risk card</strong> shows, for each goal it threatens, the colour of the goal and two numbers: probability and impact. They are the space where the figure starts: the row is the probability, the column is the impact.</p>
+<p>Why the numbers matter: the <strong>row</strong> of a figure decides the roll it needs at the end of the project, and its <strong>column</strong> decides what a failure costs (see the facilitator sheet). The red spaces on the matrix are the ones to leave.</p>
+
 <hr>
 <h2>3. Setup</h2>
 <p><strong>The facilitator, before the game:</strong></p>
@@ -73,7 +96,7 @@ img { max-width: 100%; }
 <ol>
 <li>The facilitator pays each team [10] <strong>coins</strong>.</li>
 <li>The facilitator turns over one or more risk cards of the project and makes up a bit of a story. Every team faces the same risks.</li>
-<li>Each team takes a risk matrix for every risk and puts a figure on each starting space shown on the risk card.</li>
+<li>Each team takes a risk matrix for every risk and puts a figure on each starting space shown on the risk card. Then each team goes through its yellow cards: <strong>every yellow card that stands upright still has to make its moves</strong>. Make them on the matrices you have just put figures on, once, as if the card had just been played (a matrix that was moved by a bought DPO gets no more moves of blue and yellow cards), and then <strong>turn the yellow card sideways</strong> (see <em>Reading a card and moving a figure</em>).</li>
 </ol>
 
 <h3>2. A turn</h3>
@@ -81,13 +104,13 @@ img { max-width: 100%; }
 <ol>
 <li>Every team does one of the following actions, all at the same time:
 <ul>
-<li><strong>Play a card:</strong> the processing owner plays a measure card from the hand, pays its coins and moves the figures on the matrix. This ends the team's turn. The played card goes where its colour says:
+<li><strong>Play a card:</strong> the processing owner plays a measure card from the hand, pays its coins and moves the figures on the matrix (see <em>Reading a card and moving a figure</em> above). This ends the team's turn. The played card goes where its colour says:
 <ul>
 <li><strong>Grey (project):</strong> onto the discard pile at once, and the team draws a new one.</li>
-<li><strong>Blue (shareable):</strong> the team piles it face down in front of itself. At the end of the project the team picks up the pile into its hand, and the cards can be played again in the next project.</li>
-<li><strong>Yellow (central):</strong> face up on the table, and the team draws a new one. It stays on the table and keeps working in every later project.</li>
+<li><strong>Blue (shareable):</strong> the team lays it face up and turned sideways next to itself. A blue card can be played once per project: sideways means played in this project. It is still part of the hand and counts for the hand size. At the end of the project the team turns its blue cards upright again. They stay face up, which shows they were played before, so a replay costs the replay price (the small number on the card).</li>
+<li><strong>Yellow (central):</strong> face up on the table and turned sideways: sideways means its moves are made in this project. The team draws a new card and makes the moves of the yellow card right away. It stays on the table and keeps working in every later project: at the end of each project the team turns its yellow cards upright again, and at the start of the next project an upright yellow card means its moves are still to make (see part 1).</li>
 </ul></li>
-<li><strong>Swap cards:</strong> the processing owner puts up to [5] cards from the hand on the discard pile and draws the same number from the draw pile. It is free and ends the team's turn.</li>
+<li><strong>Swap cards:</strong> the processing owner puts up to [5] cards from the hand on the discard pile (not the blue cards lying sideways) and draws the same number from the draw pile. It is free and ends the team's turn.</li>
 </ul></li>
 <li>The facilitator draws an event card and reads it out. It affects all teams and does what the card says.</li>
 </ol>
@@ -97,11 +120,11 @@ img { max-width: 100%; }
 <h3>3. End of a project</h3>
 <p>The project ends after the last turn (events can change the number of turns).</p>
 <ol>
-<li><div class="optional"><strong>Optional rule: call in the DPO.</strong> Only for a high risk: a team with a figure in the red may pay [1] coin and appoint a data protection officer (DPO). The DPO makes an argument to the facilitator why the project must be stopped. The facilitator rolls the d20 in secret and decides whether management buys it. This is decided in each case. If it does, the project moves to the next round: the team keeps its matrices and figures and gets another chance for mitigation, with the full number of turns, and has no roll and no check this time. The project is extra to the new risks of the next round, and the new risks are revealed for all teams as usual. The next round starts as usual, including the coins. The coin for the DPO is not refunded. If management does not buy it, the team goes on with the roll.</div></li>
+<li><div class="optional"><strong>Optional rule: call in the DPO, before the roll.</strong> This comes first, before any team rolls. Only for a high risk: a team with a figure in the red may pay [1] coin and appoint a data protection officer (DPO). The DPO makes an argument to the facilitator why the project must be stopped. The facilitator rolls the d20 in secret and decides whether management buys it. This is decided in each case. If it does, the project moves to the next round: the team keeps its matrices and figures and gets another chance for mitigation, with the full number of turns, and has no roll and no check this time. The round still ends: the team turns its blue and yellow cards upright again. Blue and yellow cards are not played on a project that was moved this way: only grey cards move the figures of its matrices. The project is extra to the new risks of the next round, and the new risks are revealed for all teams as usual. The next round starts as usual, including the coins. The coin for the DPO is not refunded. If management does not buy it, the team goes on with the roll.</div></li>
 <li><strong>Roll.</strong> Each team rolls the d20 once.</li>
 <li><strong>Check.</strong> The facilitator checks the figures on the team's matrices. A figure fails if the roll is too low for its probability row (see the facilitator sheet).</li>
 <li><strong>Pay.</strong> For every failed figure the facilitator names the cost for its impact and makes up what happened. The processing owner pays. A team that cannot pay is out of business.<div class="optional"><strong>Optional rule.</strong> The team may instead make a convincing argument to management why it was not their fault, and management, played by the facilitator, may cover some or all of the fee.</div></li>
-<li><strong>Next project.</strong> Each team picks up its pile of blue cards into its hand. If it was not the last project, the next one starts with part 1.</li>
+<li><strong>Next project.</strong> Each team turns its blue cards and its yellow cards upright again. The blue cards stay in the hand, the yellow cards stay on the table, all face up. If it was not the last project, the next one starts with part 1.</li>
 </ol>
 
 <hr>
@@ -117,18 +140,19 @@ img { max-width: 100%; }
 <ul>
 <li><strong>Player aid</strong>, one for each team: <a href="player-aid.html">page</a>, <a href="player-aid.pdf">PDF</a>. It shows the flow of a project, the turn, the three card colours, the matrix and the end-of-project roll.</li>
 <li><strong>Facilitator sheet</strong>, for the facilitator: <a href="facilitator-sheet.html">page</a>, <a href="facilitator-sheet.pdf">PDF</a>. It shows the facilitator's jobs, the roll a team needs for each probability, the cost and the story for each impact, and the optional DPO.</li>
+<li><strong>Trainer script</strong>, for the person who trains facilitators: <a href="trainer-script.html">page</a>, <a href="trainer-script.pdf">PDF, DIN A4</a>. A pretend play with two teams, fixed hands and fixed draws, one big page for every turn (made for a shared screen): the hand, the card that is played, what happens, and the figures and coins after it. Every rule of this book appears in it once.</li>
 </ul>
 
 <hr>
 <h2>Appendix: an example project</h2>
 <p>Team Otter faces one risk. The black figure (Confidentiality) starts at probability 3, impact 3, in the red.</p>
 <ol>
-<li><strong>Start.</strong> The facilitator pays Team Otter [10] coins, turns over the risk card and tells a short story about it. The team puts the black figure on its starting space.</li>
+<li><strong>Start.</strong> The facilitator pays Team Otter [10] coins, turns over the risk card and tells a short story about it. The team puts the black figure on its starting space. Team Otter has no yellow card on the table yet, so there is nothing more to move.</li>
 <li><strong>Turn 1.</strong> Team Otter plays a grey measure card that lowers probability by one. The processing owner pays its coins, moves the black figure from probability 3 to 2 and puts the card on the discard pile. The team draws a new card. The facilitator draws an event card and reads it out.</li>
-<li><strong>Turn 2.</strong> The team plays a blue measure card that lowers impact by one. The black figure moves to impact 2, out of the red. The card goes face down in a pile in front of the team, and the team does not draw.</li>
+<li><strong>Turn 2.</strong> The team plays a blue measure card that lowers impact by one. The black figure moves to impact 2, out of the red. The card lies face up and sideways next to the team, still part of its hand, and the team does not draw.</li>
 <li><strong>Turns 3 and 4.</strong> The team uses them the same way: it swaps cards in turn 3 and plays one more measure in turn 4.</li>
 <li><strong>End.</strong> Team Otter rolls its d20 and gets a 6. The black figure stands at probability 2, which needs an 8 or above, so it fails. Its impact is 2, so the cost is 4 coins. The facilitator tells the story, for example a customer complaint that goes to the authority, with lawyers and forms. The processing owner pays 4 coins. Had the roll been 9, nothing would have happened.</li>
-<li><strong>Next project.</strong> Team Otter picks up its blue card into its hand, and the next project starts with the facilitator paying [10] coins.</li>
+<li><strong>Next project.</strong> Team Otter turns its blue card upright again, and the next project starts with the facilitator paying [10] coins.</li>
 </ol>
-<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><!-- built from dpia-tabletop 0ad9584 --><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
+<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><!-- built from dpia-tabletop a5a3003 --><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
 </body></html>

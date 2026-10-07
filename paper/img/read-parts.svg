@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1010" height="640" viewBox="0 0 1010 640">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d2433"/></marker></defs>
+<rect width="1010" height="640" fill="#fff"/>
+<rect x="10" y="10" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(10 10)"><circle cx="70" cy="78" r="34" fill="#1d2433" stroke="#fff" stroke-width="3"/><text x="70" y="91" text-anchor="middle" font-size="36" font-weight="bold" fill="#fff" font-family="Segoe UI,Arial,Helvetica,sans-serif">2</text></g>
+<text x="156" y="48" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Price</text>
+<text x="156" y="74" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Dark circle, top left.</text>
+<text x="156" y="95" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Pay these coins</text>
+<text x="156" y="116" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">when you play the card.</text>
+<rect x="342" y="10" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(342 10)"><circle cx="60" cy="70" r="34" fill="#1d2433" stroke="#fff" stroke-width="3"/><text x="60" y="83" text-anchor="middle" font-size="36" font-weight="bold" fill="#fff" font-family="Segoe UI,Arial,Helvetica,sans-serif">3</text><circle cx="92" cy="102" r="15" fill="#fff" stroke="#1d2433" stroke-width="2.5"/><text x="92" y="108" text-anchor="middle" font-size="17" font-weight="bold" fill="#1d2433" font-family="Segoe UI,Arial,Helvetica,sans-serif">1</text></g>
+<text x="488" y="48" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Blue card price</text>
+<text x="488" y="74" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">A second, small number:</text>
+<text x="488" y="95" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">the price when you play</text>
+<text x="488" y="116" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">it again later.</text>
+<rect x="674" y="10" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(674 10)"><rect x="14" y="46" width="34" height="48" rx="6" fill="#6b7280"/><rect x="54" y="46" width="34" height="48" rx="6" fill="#3730a3"/><rect x="94" y="46" width="34" height="48" rx="6" fill="#c9a227"/></g>
+<text x="820" y="48" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Frame colour</text>
+<text x="820" y="74" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Grey: project.</text>
+<text x="820" y="95" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Blue: shareable.</text>
+<text x="820" y="116" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Yellow: central.</text>
+<rect x="10" y="186" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(10 186)"><clipPath id="pl"><rect x="14" y="32" width="56.0" height="50"/></clipPath><g opacity=".28"><rect x="14" y="34" width="112" height="46" rx="23.0" fill="#f06a12"/><line x1="70.0" y1="41" x2="70.0" y2="73" stroke="#ffffff" stroke-opacity=".75" stroke-width="1.5"/><text x="42.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−2</text><text x="98.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−1</text></g><g clip-path="url(#pl)"><rect x="14" y="34" width="112" height="46" rx="23.0" fill="#f06a12"/><line x1="70.0" y1="41" x2="70.0" y2="73" stroke="#ffffff" stroke-opacity=".75" stroke-width="1.5"/><text x="42.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−2</text><text x="98.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−1</text></g><line x1="40" y1="96" x2="40" y2="146" stroke="#1d2433" stroke-width="2.5" stroke-linecap="round" marker-start="url(#ah)" marker-end="url(#ah)"/><text x="54" y="112" text-anchor="start" font-size="16" fill="#1d2433" font-family="Georgia,serif"><tspan font-weight="bold">+</tspan> up</text><text x="54" y="142" text-anchor="start" font-size="16" fill="#1d2433" font-family="Georgia,serif"><tspan font-weight="bold">−</tspan> down</text></g>
+<text x="156" y="224" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Left number</text>
+<text x="156" y="250" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Probability: the rows.</text>
+<text x="156" y="271" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Minus: it goes down.</text>
+<text x="156" y="292" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Plus: it goes up.</text>
+<rect x="342" y="186" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(342 186)"><clipPath id="pr"><rect x="70.0" y="32" width="56.0" height="50"/></clipPath><g opacity=".28"><rect x="14" y="34" width="112" height="46" rx="23.0" fill="#f06a12"/><line x1="70.0" y1="41" x2="70.0" y2="73" stroke="#ffffff" stroke-opacity=".75" stroke-width="1.5"/><text x="42.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−2</text><text x="98.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−1</text></g><g clip-path="url(#pr)"><rect x="14" y="34" width="112" height="46" rx="23.0" fill="#f06a12"/><line x1="70.0" y1="41" x2="70.0" y2="73" stroke="#ffffff" stroke-opacity=".75" stroke-width="1.5"/><text x="42.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−2</text><text x="98.0" y="63.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−1</text></g><line x1="18" y1="108" x2="122" y2="108" stroke="#1d2433" stroke-width="2.5" stroke-linecap="round" marker-start="url(#ah)" marker-end="url(#ah)"/><text x="18" y="134" text-anchor="start" font-size="16" fill="#1d2433" font-family="Georgia,serif"><tspan font-weight="bold">−</tspan> left</text><text x="122" y="134" text-anchor="end" font-size="16" fill="#1d2433" font-family="Georgia,serif"><tspan font-weight="bold">+</tspan> right</text></g>
+<text x="488" y="224" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Right number</text>
+<text x="488" y="250" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Impact: the columns.</text>
+<text x="488" y="271" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Minus: it goes left.</text>
+<text x="488" y="292" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Plus: it goes right.</text>
+<rect x="674" y="186" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(674 186)"><rect x="14" y="20" width="112" height="46" rx="23.0" fill="#8e44c8"/><line x1="70.0" y1="27" x2="70.0" y2="59" stroke="#ffffff" stroke-opacity=".75" stroke-width="1.5"/><text x="42.0" y="49.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−1</text><text x="98.0" y="49.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">0</text><line x1="70" y1="74" x2="70" y2="98" stroke="#1d2433" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ah)"/><circle cx="70" cy="122" r="17" fill="#8e44c8" stroke="#fff" stroke-width="2.5"/><text x="70" y="128" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff" font-family="Georgia,serif">L</text></g>
+<text x="820" y="224" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Goal colour</text>
+<text x="820" y="250" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">The circle's colour is</text>
+<text x="820" y="271" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">the goal. It moves the</text>
+<text x="820" y="292" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">figure of that colour.</text>
+<rect x="10" y="362" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(10 362)"><circle cx="70" cy="52" r="30" fill="none" stroke="#1d2433" stroke-width="3"/><text x="70" y="65.75" text-anchor="middle" font-size="44" font-weight="bold" fill="#1d2433" font-family="Segoe UI,Arial,Helvetica,sans-serif">−</text><line x1="40" y1="100" x2="40" y2="144" stroke="#1d2433" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ah)"/><line x1="124" y1="122" x2="80" y2="122" stroke="#1d2433" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ah)"/></g>
+<text x="156" y="400" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Minus</text>
+<text x="156" y="426" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Lowers it: good.</text>
+<text x="156" y="447" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Left number: down.</text>
+<text x="156" y="468" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Right number: left.</text>
+<rect x="342" y="362" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(342 362)"><circle cx="70" cy="52" r="30" fill="none" stroke="#1d2433" stroke-width="3"/><text x="70" y="65.75" text-anchor="middle" font-size="44" font-weight="bold" fill="#1d2433" font-family="Segoe UI,Arial,Helvetica,sans-serif">+</text><line x1="40" y1="144" x2="40" y2="100" stroke="#1d2433" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ah)"/><line x1="80" y1="122" x2="124" y2="122" stroke="#1d2433" stroke-width="2.5" stroke-linecap="round" marker-end="url(#ah)"/></g>
+<text x="488" y="400" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Plus</text>
+<text x="488" y="426" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Raises it: a downside.</text>
+<text x="488" y="447" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Left number: up.</text>
+<text x="488" y="468" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Right number: right.</text>
+<rect x="674" y="362" width="325" height="156" rx="12" fill="#fff" stroke="#d6d1c2" stroke-width="2"/>
+<g transform="translate(674 362)"><clipPath id="pz"><rect x="70.0" y="38" width="56.0" height="50"/></clipPath><g opacity=".28"><rect x="14" y="40" width="112" height="46" rx="23.0" fill="#8e44c8"/><line x1="70.0" y1="47" x2="70.0" y2="79" stroke="#ffffff" stroke-opacity=".75" stroke-width="1.5"/><text x="42.0" y="69.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−1</text><text x="98.0" y="69.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">0</text></g><g clip-path="url(#pz)"><rect x="14" y="40" width="112" height="46" rx="23.0" fill="#8e44c8"/><line x1="70.0" y1="47" x2="70.0" y2="79" stroke="#ffffff" stroke-opacity=".75" stroke-width="1.5"/><text x="42.0" y="69.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">−1</text><text x="98.0" y="69.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff" font-family="Segoe UI,Arial,Helvetica,sans-serif">0</text></g><circle cx="70" cy="124" r="17" fill="#8e44c8" stroke="#fff" stroke-width="2.5"/><text x="70" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff" font-family="Georgia,serif">L</text><text x="96" y="130" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">stays</text></g>
+<text x="820" y="400" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">Zero</text>
+<text x="820" y="426" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">Nothing moves on</text>
+<text x="820" y="447" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">this side. A figure stays</text>
+<text x="820" y="468" text-anchor="start" font-size="14" fill="#333" font-family="Georgia,serif">between <tspan font-family="Segoe UI,Arial,Helvetica,sans-serif">1</tspan> and <tspan font-family="Segoe UI,Arial,Helvetica,sans-serif">4</tspan>.</text>
+<text x="10" y="552" text-anchor="start" font-size="18" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">The seven goals and their colours (the figures on the matrix)</text>
+<circle cx="24" cy="576" r="13" fill="#f06a12" stroke="#fff" stroke-width="2"/>
+<text x="24" y="582" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff" font-family="Georgia,serif">M</text>
+<text x="46" y="582" text-anchor="start" font-size="15" fill="#1d2433" font-family="Georgia,serif">Data Minimisation</text>
+<circle cx="274" cy="576" r="13" fill="#4caf2a" stroke="#fff" stroke-width="2"/>
+<text x="274" y="582" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">A</text>
+<text x="296" y="582" text-anchor="start" font-size="15" fill="#1d2433" font-family="Georgia,serif">Availability</text>
+<circle cx="524" cy="576" r="13" fill="#1f5fd6" stroke="#fff" stroke-width="2"/>
+<text x="524" y="582" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff" font-family="Georgia,serif">I</text>
+<text x="546" y="582" text-anchor="start" font-size="15" fill="#1d2433" font-family="Georgia,serif">Integrity</text>
+<circle cx="774" cy="576" r="13" fill="#26262c" stroke="#fff" stroke-width="2"/>
+<text x="774" y="582" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff" font-family="Georgia,serif">C</text>
+<text x="796" y="582" text-anchor="start" font-size="15" fill="#1d2433" font-family="Georgia,serif">Confidentiality</text>
+<circle cx="24" cy="608" r="13" fill="#8e44c8" stroke="#fff" stroke-width="2"/>
+<text x="24" y="614" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff" font-family="Georgia,serif">L</text>
+<text x="46" y="614" text-anchor="start" font-size="15" fill="#1d2433" font-family="Georgia,serif">Unlinkability</text>
+<circle cx="274" cy="608" r="13" fill="#f6e84a" stroke="#fff" stroke-width="2"/>
+<text x="274" y="614" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d2433" font-family="Georgia,serif">T</text>
+<text x="296" y="614" text-anchor="start" font-size="15" fill="#1d2433" font-family="Georgia,serif">Transparency</text>
+<circle cx="524" cy="608" r="13" fill="#c62828" stroke="#fff" stroke-width="2"/>
+<text x="524" y="614" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff" font-family="Georgia,serif">V</text>
+<text x="546" y="614" text-anchor="start" font-size="15" fill="#1d2433" font-family="Georgia,serif">Intervenability</text>
+</svg>
