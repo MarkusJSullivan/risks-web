@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>Player aid: The Data Protection Risk Game</title><style>
 @page { size: A4 portrait; margin: 10mm; }
-body { font-family: Georgia, serif; max-width: 190mm; margin: 0 auto; padding: 1mm 4mm; color: #1d2433; font-size: 10.6pt; line-height: 1.3; }
+body { font-family: Georgia, serif; max-width: 190mm; margin: 0 auto; padding: 1mm 4mm; color: #1d2433; font-size: 9.8pt; line-height: 1.3; }
 h1 { font-size: 20pt; margin: 0 0 1mm; }
 h2 { font-size: 11pt; margin: 1.5mm 0 0.8mm; border-bottom: 1px solid #ccc; padding-bottom: 1mm; }
 .grid { display: grid; grid-template-columns: 1fr 62mm; gap: 6mm; align-items: start; }
@@ -18,7 +18,7 @@ h2 { font-size: 11pt; margin: 1.5mm 0 0.8mm; border-bottom: 1px solid #ccc; padd
 <div class="grid">
 <div>
 <h2>Start of a project</h2>
-<p>Hand of [9] cards. Take a matrix for every risk. On the risk card, <strong>left number = probability, right number = impact</strong>: put the figure of that colour on that space. Then make the moves of every <strong>upright</strong> yellow card, and turn it sideways.</p>
+<p>Hand of [9] cards. Turn your blue and yellow cards upright. Take a matrix for every risk. On the risk card, <strong>left number = probability, right number = impact</strong>: put the figure of that colour on that space. Then make the moves of every <strong>upright</strong> yellow card on the new matrices, and turn it sideways.</p>
 
 <h2>Each turn: one action</h2>
 <div class="row"><img src="img/card-grey.svg" width="34" alt="">
@@ -26,15 +26,15 @@ h2 { font-size: 11pt; margin: 1.5mm 0 0.8mm; border-bottom: 1px solid #ccc; padd
 <div class="optional"><strong>Optional rule.</strong> Explain, as creatively as you can, why this measure works perfectly here. A good reason can earn 1 or 2 coins from the facilitator.</div>
 <div class="row"><img src="img/coin.svg" width="34" alt="">
 <p><strong>Swap cards.</strong> Put up to [5] cards on the discard pile and draw as many. Not blue cards lying sideways. It is free. This is your action.</p></div>
-<p>Then the facilitator draws an event card. It affects all teams.</p>
+<p>Then the facilitator draws an event card. It affects all teams. Mark the turn with a coin on the turn track of the matrix.</p>
 
 <h2>Card colours</h2>
 <div class="row"><img src="img/card-grey.svg" width="34" alt="Grey card">
 <p><strong>Grey, project.</strong> Played once, then onto the discard pile. Draw a new card.</p></div>
 <div class="row"><img src="img/card-blue.svg" width="34" alt="Blue card">
-<p><strong>Blue, shareable.</strong> Lay it face up and turned sideways next to your team. Once per project. It is still part of your hand. At the next project turn it upright: you may play it again at its replay price. No new card.</p></div>
+<p><strong>Blue, shareable.</strong> Lay it face up and turned sideways next to your team. Once per project. It is still part of your hand. At the start of the next project turn it upright: you may play it again at its replay price. If it goes to the discard pile, it costs full price again. No new card.</p></div>
 <div class="row"><img src="img/card-yellow.svg" width="34" alt="Yellow card">
-<p><strong>Yellow, central.</strong> Face up on the table. Make its moves now and turn it sideways. At the end of the project turn it upright: upright at the start means its moves are still to make. Draw a new card.</p></div>
+<p><strong>Yellow, central.</strong> Face up on the table. Make its moves now and turn it sideways. At the start of the next project turn it upright: upright means its moves are still to make. Draw a new card.</p></div>
 
 <h2>End of a project</h2>
 <div class="row"><img src="img/d20.svg" width="46" alt="d20">
@@ -45,12 +45,12 @@ h2 { font-size: 11pt; margin: 1.5mm 0 0.8mm; border-bottom: 1px solid #ccc; padd
 <div>
 <h2>The matrix</h2>
 <img class="matrix" src="mockups/risk-matrix.png" alt="The risk matrix with its zones and the colours of the goals">
-<div class="optional"><strong>Optional rule.</strong> Cannot pay? Argue to management why it was not your fault. It may cover some or all of the fee.</div>
+<div class="optional"><strong>Optional rule.</strong> Cannot pay? Argue to management why it was not your fault. It may cover some or all of the fee; the facilitator may roll a d20 in secret as a guide.</div>
 <div class="optional"><strong>Optional rule, before the roll.</strong> A figure in the red? Pay [1] coin and call in a DPO to argue why the project must be stopped. The facilitator decides. If bought: no roll and no cost, and the risk comes back next round with the same figures. Only grey cards move the figures of that old matrix, not blue or yellow ones.</div>
 </div>
 </div>
 <h2>Reading a card</h2>
 <img class="strip" src="img/read-strip.svg" alt="The parts of a card: the price, the left number (probability, rows), the right number (impact, columns), the colour of the circle (the figure it moves), minus (down or left) and plus (up or right)">
 <p class="read">Do it on <strong>every matrix</strong> that has a figure of that colour. A figure never leaves the matrix: it stays between 1 and 4.</p>
-<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><!-- built from dpia-tabletop c9506df --><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
+<style>.credits a{color:#5a3d00;text-underline-offset:2px}.credits a:hover{color:#000}.credits{max-width:46rem;margin:2.5rem auto 2rem;padding:0 1rem;text-align:center;font:13px/1.6 system-ui,sans-serif;color:#444}.credits p{margin:.5rem 0}.credits .de{font-size:12px;color:#666}</style><!-- built from dpia-tabletop da62fa3 --><footer class="credits"><p><a href="../index.html">Start page</a> · <a href="../paper.html">Paper version</a> · <a href="../play.html">Play online</a></p><p>Loosely based on the German <a href="https://www.datenschutzzentrum.de/uploads/sdm/SDM-Methode.pdf">Standard Data Protection Model (SDM)</a> and <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Rev. 5</a>. An independent adaptation for learning: not endorsed by either, and not legal advice. NIST references on the cards are related controls, not equivalents.</p><p class="de" lang="de">Quelle: Konferenz der unabhängigen Datenschutzaufsichtsbehörden des Bundes und der Länder (Datenschutzkonferenz), SDM V3.1. Verändert: Maßnahmen gekürzt, ins Englische übertragen und um Spielwerte ergänzt. <a href="https://www.govdata.de/dl-de/by-2-0">Datenlizenz Deutschland – Namensnennung – Version 2.0</a>.</p><p>Card text: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://github.com/MarkusJSullivan/dpia-tabletop">Source on GitHub</a></p></footer>
 </body></html>
